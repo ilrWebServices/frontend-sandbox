@@ -1,0 +1,8 @@
+body {
+  background: $brand;
+}
+
+.container {
+  @include grid-row;
+  background: white;
+}
