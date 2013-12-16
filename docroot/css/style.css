@@ -888,78 +888,13 @@ table {
   width: 0;
   height: 0; }
 
-.clearfix:before, .clearfix:after, .row:before, .row:after {
+.clearfix:before, .news-item img:before, .clearfix:after, .news-item img:after, .row:before, .row:after {
   content: '\0020';
   display: block;
   overflow: hidden;
   visibility: hidden;
   width: 0;
   height: 0; }
-
-header #logo {
-  float: left;
-  margin-right: 2em; }
-header #name-and-slogan {
-  font-size: 2em;
-  padding-top: 2em; }
-
-nav {
-  clear: both; }
-  nav.main li {
-    font-size: 1.2rem; }
-  nav h2 {
-    display: none; }
-  nav #secondary-menu {
-    float: right; }
-  nav li {
-    display: inline-block; }
-    nav li.first {
-      padding-left: 0; }
-    nav li a, nav li a:visited, nav li a:active {
-      text-decoration: none;
-      color: #2d4063;
-      font-size: 0.75em;
-      font-weight: 600; }
-      footer nav li a, footer nav li a:visited, footer nav li a:active {
-        color: #cccccc; }
-        footer nav li a:hover, footer nav li a:visited:hover, footer nav li a:active:hover {
-          color: #e6e6e6; }
-
-.menu-block-wrapper ul {
-  margin: 0;
-  padding: 0; }
-  .menu-block-wrapper ul li {
-    padding-left: 1em; }
-    .menu-block-wrapper ul li a {
-      display: block;
-      padding: 1em 0; }
-      .menu-block-wrapper ul li a:hover {
-        text-decoration: none; }
-.menu-block-wrapper > ul.menu {
-  border-top: 1px solid; }
-  .menu-block-wrapper > ul.menu li {
-    list-style: none;
-    margin: 0; }
-  .menu-block-wrapper > ul.menu > li {
-    border-bottom: 1px solid; }
-
-footer {
-  padding: 1em 0;
-  background: #363636 url(../images/bg-footer.gif) repeat-x;
-  color: #acacac; }
-  footer div.section {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 68.75em;
-    *zoom: 1; }
-    footer div.section:before, footer div.section:after {
-      content: " ";
-      display: table; }
-    footer div.section:after {
-      clear: both; }
 
 body {
   background: #941e12; }
@@ -978,3 +913,7 @@ body {
     display: table; }
   .container:after {
     clear: both; }
+
+.news-item img {
+  float: left;
+  margin-right: 1em; }
