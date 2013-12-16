@@ -7,11 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="alternate" type="application/rss+xml" title="Cornell University | ILR School RSS" href="http://www.ilr-website.dev/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Cornell University | ILR School RSS" href="http://www.ilr-website.dev/rss.xml" />
+  <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
   <title>Cornell University | ILR School</title>
-
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
 <body>
+  <div class="container">

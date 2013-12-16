@@ -1,0 +1,9 @@
+footer {
+  padding: 1em 0;
+  background: $brand-dark url(../images/bg-footer.gif) repeat-x;
+  color: $brand-light;
+
+  div.section {
+    @include grid-row(12);
+  }
+}

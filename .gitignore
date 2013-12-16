@@ -1,0 +1,12 @@
+*.sass-cache
+Gemfile.lock
+
+
+
+
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
