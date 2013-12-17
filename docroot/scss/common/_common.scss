@@ -15,24 +15,32 @@ $column-gutter: em-calc(40);
 
   .main & {
     background: transparentize(white, .1);
-    @include grid-column($columns:9, $push:3);
+    @include grid-column($columns:12, $push:0);
 
-    @include tablet-portrait-and-below {
-      @include grid-column($columns:12, $push:0);
+    @include tablet-landscape-and-up {
+      @include grid-column($columns:9, $push:3);
     }
 
     .content-bottom {
       @include grid-row;
 
       .col.two {
-        @include grid-column($columns:6);
+        @include grid-column($columns:12);
+
+        @include mobile-landscape-and-up {
+          @include grid-column($columns:6);
+        }
       }
 
       .col.four {
-        @include grid-column($columns:3);
+        @include grid-column($columns:12);
 
-        @include mobile-landscape-and-below {
+        @include mobile-landscape-and-up {
           @include grid-column($columns:6);
+        }
+
+        @include tablet-portrait-and-up {
+          @include grid-column($columns:3);
         }
       }
     }
@@ -40,17 +48,22 @@ $column-gutter: em-calc(40);
 
   .sidebar & {
     background: transparentize(white, .2);
-    @include grid-column($columns:3, $pull:9);
+    @include grid-column($columns:12, $pull:0);
 
-    @include tablet-portrait-and-below {
-      @include grid-column($columns:12, $pull:0);
+    @include tablet-landscape-and-up {
+      @include grid-column($columns:3, $pull:9);
     }
 
     .col {
-      @include grid-row;
+      @include grid-column($columns:12);
 
-      @include tablet-portrait-and-below {
-        @include grid-column($columns:6);
+        @include mobile-landscape-and-up {
+          @include grid-column($columns:6);
+        }
+
+      @include tablet-landscape-and-up {
+        @include grid-row;
+
       }
     }
   }
