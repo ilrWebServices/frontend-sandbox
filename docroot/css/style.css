@@ -658,6 +658,10 @@ table {
   color: #fff;
   text-shadow: none; }
 
+html, body {
+  height: 100%;
+  overflow: auto; }
+
 fieldset {
   margin-bottom: 1em; }
 
@@ -892,6 +896,9 @@ table {
   visibility: hidden;
   width: 0;
   height: 0; }
+
+.page-list {
+  background: white; }
 
 body {
   background: #333333;
