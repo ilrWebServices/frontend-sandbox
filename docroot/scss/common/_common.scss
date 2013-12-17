@@ -1,8 +1,71 @@
 body {
-  background: $brand;
+  background: lighten(black,20%);
+  padding-top: 50px;
 }
+
+$show-baseline-grid-backgrounds: false;
+$column-gutter: em-calc(40);
 
 .container {
   @include grid-row;
-  background: white;
 }
+
+.content {
+  padding-top: 2em;
+
+  .main & {
+    background: transparentize(white, .1);
+    @include grid-column($columns:12, $push:0);
+
+    @include tablet-landscape-and-up {
+      @include grid-column($columns:9, $push:3);
+    }
+
+    .content-bottom {
+      @include grid-row;
+
+      .col.two {
+        @include grid-column($columns:12);
+
+        @include mobile-landscape-and-up {
+          @include grid-column($columns:6);
+        }
+      }
+
+      .col.four {
+        @include grid-column($columns:12);
+
+        @include mobile-landscape-and-up {
+          @include grid-column($columns:6);
+        }
+
+        @include tablet-portrait-and-up {
+          @include grid-column($columns:3);
+        }
+      }
+    }
+  }
+
+  .sidebar & {
+    background: transparentize(white, .2);
+    @include grid-column($columns:12, $pull:0);
+
+    @include tablet-landscape-and-up {
+      @include grid-column($columns:3, $pull:9);
+    }
+
+    .col {
+      @include grid-column($columns:12);
+
+        @include mobile-landscape-and-up {
+          @include grid-column($columns:6);
+        }
+
+      @include tablet-landscape-and-up {
+        @include grid-row;
+
+      }
+    }
+  }
+}
+

@@ -99,7 +99,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 68.75em;
+  max-width: 60em;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -659,7 +659,8 @@ table {
   text-shadow: none; }
 
 html, body {
-  height: 100%; }
+  height: 100%;
+  overflow: auto; }
 
 fieldset {
   margin-bottom: 1em; }
@@ -896,8 +897,12 @@ table {
   width: 0;
   height: 0; }
 
+.page-list {
+  background: white; }
+
 body {
-  background: #941e12; }
+  background: #333333;
+  padding-top: 50px; }
 
 .container {
   width: 100%;
@@ -905,14 +910,125 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 68.75em;
-  *zoom: 1;
-  background: white; }
+  max-width: 60em;
+  *zoom: 1; }
   .container:before, .container:after {
     content: " ";
     display: table; }
   .container:after {
     clear: both; }
+
+.content {
+  padding-top: 2em; }
+  .main .content {
+    background: rgba(255, 255, 255, 0.9);
+    position: relative;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    width: 100%;
+    left: 0%;
+    right: auto;
+    float: left; }
+    @media only screen and (min-width: 769px) {
+      .main .content {
+        position: relative;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+        width: 75%;
+        left: 25%;
+        right: auto;
+        float: left; } }
+    .main .content .content-bottom {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      margin-bottom: 0;
+      max-width: 60em;
+      *zoom: 1; }
+      .main .content .content-bottom:before, .main .content .content-bottom:after {
+        content: " ";
+        display: table; }
+      .main .content .content-bottom:after {
+        clear: both; }
+      .main .content .content-bottom .col.two {
+        position: relative;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+        width: 100%;
+        float: left; }
+        @media only screen and (min-width: 321px) {
+          .main .content .content-bottom .col.two {
+            position: relative;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            width: 50%;
+            float: left; } }
+      .main .content .content-bottom .col.four {
+        position: relative;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+        width: 100%;
+        float: left; }
+        @media only screen and (min-width: 321px) {
+          .main .content .content-bottom .col.four {
+            position: relative;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            width: 50%;
+            float: left; } }
+        @media only screen and (min-width: 569px) {
+          .main .content .content-bottom .col.four {
+            position: relative;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            width: 25%;
+            float: left; } }
+  .sidebar .content {
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    width: 100%;
+    right: 0%;
+    left: auto;
+    float: left; }
+    @media only screen and (min-width: 769px) {
+      .sidebar .content {
+        position: relative;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+        width: 25%;
+        right: 75%;
+        left: auto;
+        float: left; } }
+    .sidebar .content .col {
+      position: relative;
+      padding-left: 1.25em;
+      padding-right: 1.25em;
+      width: 100%;
+      float: left; }
+      @media only screen and (min-width: 321px) {
+        .sidebar .content .col {
+          position: relative;
+          padding-left: 1.25em;
+          padding-right: 1.25em;
+          width: 50%;
+          float: left; } }
+      @media only screen and (min-width: 769px) {
+        .sidebar .content .col {
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 0;
+          margin-bottom: 0;
+          max-width: 60em;
+          *zoom: 1; }
+          .sidebar .content .col:before, .sidebar .content .col:after {
+            content: " ";
+            display: table; }
+          .sidebar .content .col:after {
+            clear: both; } }
 
 .news-item img {
   float: left;
