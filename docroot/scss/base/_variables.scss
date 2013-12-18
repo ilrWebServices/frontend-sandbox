@@ -14,7 +14,7 @@ $content-area: #fff;
 // Typography
 // ==================================================
 $font: arial, helvetica, sans-serif;
-$font-headers: "cronos-pro";
+$font-headers: calibri;
 
 $h1-size: em-calc(25);
 $h2-size: em-calc(20);
@@ -45,7 +45,8 @@ $h5-link-hover: #212121;
 $h6-link-hover: #212121;
 
 $p-text: #212121;
-$p-size: em-calc(16);
+//$p-size: em-calc(16);
+$p-size: 14px;
 
 $link: darken($brand, 5%);
 $link-hover: $brand;
