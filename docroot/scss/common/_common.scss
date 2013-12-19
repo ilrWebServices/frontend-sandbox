@@ -1,9 +1,15 @@
 body {
-  background: $brand;
+  background: #fff;
 }
 
 .wrapper {
   width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  width: 960px;
   margin: 0 auto;
   padding: 0;
 }
