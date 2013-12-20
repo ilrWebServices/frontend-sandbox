@@ -12,9 +12,10 @@
 }
 
 .row .thumb {
-  width: 100%;
+  @include grid-column(12);
   @include tablet-portrait-and-up {
-	width: 400px;
+	//width: 400px;
+	@include grid-column(5);
 	float: left;
   }
 }

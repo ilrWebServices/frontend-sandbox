@@ -8,11 +8,16 @@
 }
 
 .row .rolodex {
-  width: auto;
-  margin-right: 10px;
-  margin-left: 10px;
-  @include tablet-portrait-and-up {
-	width: 400px;
+  //width: auto;
+  @include grid-column(12);
+  //margin-right: 10px;
+  //margin-left: 10px;
+  @include tablet-portrait-only {
+	//border: 1px solid blue;
+  }
+  @include tablet-landscape-and-up {
+	//width: 400px;
+	@include grid-column(5);
 	margin-right: 40px;
 	margin-left: 40px;
 	float: left;

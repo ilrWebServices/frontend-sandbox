@@ -18,7 +18,8 @@
 }
 
 .row .card {
-  width: auto;
+  //width: auto;
+  @include grid-column(12);
   @include tablet-portrait-and-up {
 	float: left;
 	width: 160px;

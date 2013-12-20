@@ -99,7 +99,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 68.75em;
+  max-width: 60em;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -667,7 +667,7 @@ fieldset {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin-top: 0;
-  font-family: "chaparral-pro", "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+  font-family: calibri; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
@@ -675,8 +675,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1 {
   font-size: 1.5625em;
   color: #212121;
-  margin-bottom: 14px;
-  border-bottom: 1px solid #C7B29A; }
+  margin-bottom: 14px; }
   h1 a {
     color: #212121; }
     h1 a:hover {
@@ -741,7 +740,7 @@ h6 {
       color: #212121; }
 
 p {
-  font-size: 1em;
+  font-size: 14px;
   color: #212121;
   margin-bottom: 20px; }
   p img {
@@ -840,7 +839,7 @@ table {
   border-collapse: collapse;
   text-align: left;
   width: 100%;
-  font-size: 1em; }
+  font-size: 14px; }
   table th {
     color: #212121;
     font-weight: bold;
@@ -897,7 +896,60 @@ table {
   height: 0; }
 
 body {
-  background: #941e12; }
+  background: #fff; }
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 60em;
+  *zoom: 1;
+  margin: 0 auto;
+  padding: 0; }
+  .wrapper:before, .wrapper:after {
+    content: " ";
+    display: table; }
+  .wrapper:after {
+    clear: both; }
+
+.row {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+  margin: 20px auto;
+  padding: 0; }
+  @media only screen and (min-width: 569px) {
+    .row {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 100%;
+      float: left;
+      margin: 20px auto;
+      padding: 0; } }
+
+.column {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0; }
+  @media only screen and (min-width: 569px) and (max-width: 768px) {
+    .column {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 50%;
+      float: left; } }
+  @media only screen and (min-width: 769px) {
+    .column {
+      width: 480px; } }
 
 .container {
   width: 100%;
@@ -905,7 +957,7 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 68.75em;
+  max-width: 60em;
   *zoom: 1;
   background: white; }
   .container:before, .container:after {
@@ -917,3 +969,95 @@ body {
 .news-item img {
   float: left;
   margin-right: 1em; }
+
+.slug, .thumb, .rolodex, .card {
+  background: #f0eee4;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 10px auto;
+  padding: 0;
+  display: block;
+  overflow: hidden; }
+  .slug p, .thumb p, .rolodex p, .card p {
+    font-weight: 400;
+    line-height: 1.443;
+    margin: 0;
+    padding: 0; }
+  .slug h1, .thumb h1, .rolodex h1, .card h1 {
+    font-size: 20.438px;
+    font-weight: 400;
+    line-height: 1.263;
+    margin: 0;
+    padding: 0; }
+
+.thumb img, .rolodex img, .card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 12.632px;
+  float: left; }
+.thumb h1, .rolodex h1, .card h1 {
+  margin-top: 20px; }
+
+.row .thumb, .row .rolodex, .row .card {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+  @media only screen and (min-width: 569px) {
+    .row .thumb, .row .rolodex, .row .card {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 41.66667%;
+      float: left;
+      float: left; } }
+
+.rolodex, .card {
+  padding-top: 12.632px;
+  padding-bottom: 12.632px; }
+  .rolodex h1, .card h1 {
+    margin-top: 0; }
+
+.row .rolodex, .row .card {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+  @media only screen and (min-width: 769px) {
+    .row .rolodex, .row .card {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 41.66667%;
+      float: left;
+      margin-right: 40px;
+      margin-left: 40px;
+      float: left; } }
+
+.card {
+  /*padding-right: 12.632px;
+  padding-left: 12.632px;*/ }
+  .card img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 12.632px;
+    float: none; }
+  .card h1 {
+    line-height: 1.139; }
+  @media only screen and (min-width: 569px) {
+    .card {
+      width: 160px;
+      height: 320px; } }
+
+.row .card {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+  @media only screen and (min-width: 569px) {
+    .row .card {
+      float: left;
+      width: 160px; } }
