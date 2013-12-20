@@ -1,0 +1,20 @@
+.rolodex {
+  @extend .thumb;
+  padding-top: 12.632px;
+  padding-bottom: 12.632px;
+  h1 {
+	margin-top: 0;
+  }
+}
+
+.row .rolodex {
+  width: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  @include tablet-portrait-and-up {
+	width: 400px;
+	margin-right: 40px;
+	margin-left: 40px;
+	float: left;
+  }
+}

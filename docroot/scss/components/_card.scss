@@ -1,0 +1,26 @@
+.card {
+  @extend .rolodex;
+  /*padding-right: 12.632px;
+  padding-left: 12.632px;*/
+  img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 12.632px;
+	float: none;
+  }
+  h1 {
+	line-height: 1.139;
+  }
+  @include tablet-portrait-and-up {
+	width: 160px;
+	height: 320px;
+  }
+}
+
+.row .card {
+  width: auto;
+  @include tablet-portrait-and-up {
+	float: left;
+	width: 160px;
+  }
+}
