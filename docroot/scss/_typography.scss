@@ -1,0 +1,90 @@
+html {
+  line-height: 1;
+}
+
+body {
+  font-family: "Myriad Web Pro", san-serif;
+  font-size: 16px; /*scale origin*/
+}
+
+p {
+  color: $p-text;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0 0 $mod01 0;
+}
+
+h1, h2, h3, h4 {
+  color: $h-text;
+}
+
+h1 {
+  font-size: $mod06;
+  font-weight: 200;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0;
+}
+
+h1.ilr {
+  font-family: "AnomolyMedium";
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0px 2px 3px #000;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#363636,direction=180,strength=5);
+  padding-left: 0;
+}
+
+h2 {
+  font-size: $mod02;
+  font-weight: 200;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: $mod01;
+  font-weight: 200;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 16px; //use em-calc(18)
+  font-weight: bold;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0;
+}
+
+h3 + h4 {
+  padding-top: $mod00;
+}
+
+ul {
+  line-height: 1.618;
+}
+
+ul.bullets {
+  li {
+    list-style: none;
+    background: url(../images/squareBulletLg.gif) no-repeat 0 9px;
+    padding: 0 0 0 $mod00;
+  }
+}
+
+ul + h2, ul + h3, ul + h4 {
+  padding-top: $mod01;
+}
+
+a, a:visited {
+  color: $maroon;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover, a:focus {
+  color: $maroon;
+  text-decoration: underline;
+}
