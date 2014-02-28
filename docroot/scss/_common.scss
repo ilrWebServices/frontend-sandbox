@@ -158,21 +158,27 @@ aside {
   }
 
   .top {
+    background: $ILRis url(../images/SamB.jpg) no-repeat top left;
+    min-height: 300px;
     padding: $mod-01 $mod02;
   }
 
+  .spotlight {
+    width: 320px;
+    float: right;
+  }
+
   .titles {
+    h2, ul {
+      color: #fff;
+    }
     img {
-      margin-right: $mod03;
+      display: none;
     }
   }
 
   .contactLinks {
     padding: $mod01 $mod02 0;
-  }
-
-  .top {
-    padding: $mod-01 $mod02;
   }
 
   .leftCol {
@@ -220,8 +226,6 @@ aside {
   }
 
   .top {
-    background: $ILRis url(../images/SamB.jpg) no-repeat top left;
-    //width: 960px - (2 * $mod05); //852.988
     width: 960px;
     height: 400px;
     margin: 0 auto;
@@ -244,7 +248,6 @@ aside {
   .titles {
     background-color: rgba(118,133,129,0.4);
     color: #fff;
-    //width: 490px - $mod03; //456.931
     width: 490px;
     height: 305px;
     padding-top: $mod03;
@@ -283,7 +286,6 @@ aside {
 
   .contactLinks {
     background-color: $light-grey;
-    //width: 960px - (2 * $mod05); //852.988
     width: 960px;
     padding: 0 $mod05 $mod07;
     overflow: hidden;
@@ -301,7 +303,6 @@ aside {
 
   .rightCol {
     background-color: #fff;
-    //width: 490px - $mod03 - 6px; /*450.931*/
     width: 490px;
     min-height: 210px;
     padding: $mod04 0 $mod03 $mod03;
@@ -314,8 +315,6 @@ aside {
   }
 
   .experience {
-    // width: 720px - ($mod05 * 2);
-    //width: 720px - $mod05 - $mod06;
     width: 720px;
     margin-top: $mod04;
     padding: 0 $mod05 0 $mod06;
@@ -354,7 +353,6 @@ aside {
   .bottom {
     background-color: #fff;
     height: 100px;
-    //width: 960px - (2 * $mod05);
     width: 960px;
     margin: 0 auto;
     padding: $mod02 $mod05;
