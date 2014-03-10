@@ -1,0 +1,16 @@
+#!/bin/bash
+
+BIN_DIR=`dirname $0`
+
+# Get the branch name
+source $BIN_DIR/get-current-branch
+
+# Set the message if one was passed
+while getopts "m:" var; do
+    case $var in
+        m) message="${OPTARG// /_}-";;
+        *) message='';;
+    esac
+done
+
+BACKUP_NAME=$branch_name-$message$(date +%m.%d.%y-%H-%M).sql.gzip
