@@ -1,1 +1,440 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{line-height:1}body{font-family:"Myriad Web Pro", san-serif;font-size:16px}p{color:#212121;line-height:1.46;margin:0;padding:0 0 20.438px 0}h1,h2,h3,h4{color:#212121}h1{font-size:59.301px;font-weight:200;line-height:1.46;margin:0;padding:0}h1.ilr{font-family:"AnomolyMedium";line-height:1;color:#fff;text-shadow:0px 2px 3px #000;filter:progid:DXImageTransform.Microsoft.Shadow(color=#363636,direction=180,strength=5);padding-left:0}h2{font-size:22.652px;font-weight:200;line-height:1.46;margin:0;padding:0}h3{font-size:20.438px;font-weight:200;line-height:1.46;margin:0;padding:0}h4{font-size:16px;font-weight:bold;line-height:1.46;margin:0;padding:0}h3+h4{padding-top:14px}ul{line-height:1.618}ul.bullets li{list-style:none;background:url(../images/squareBulletLg.gif) no-repeat 0 9px;padding:0 0 0 14px}ul+h2,ul+h3,ul+h4{padding-top:20.438px}a,a:visited{color:#92210f;text-decoration:none;outline:0}a:hover,a:focus{color:#92210f;text-decoration:underline}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{height:100%}body{min-height:100%;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}h1{font-size:36.651px}img{width:100%;height:auto}.wrapper{width:100%;margin:0 auto;padding:0}.banner{background:#b31b1b url(../images/CUlogo45.gif) no-repeat top left;width:auto;height:45px;padding:0}.navigation{background:#4d4e53 url(../images/nav320.gif) no-repeat top left;width:auto;height:45px;padding:0}.top{background-color:#dbddd5;width:auto;padding:12.632px 14px;overflow:auto}.spotlight{width:100%;float:left}.ILRis{width:100%;height:45px;float:left}.titles{background-color:transparent;width:100%;float:left}.titles img{display:none}.middle{width:100%;padding:0 0 12.632px 0}.contactLinks{background-color:#f7f7f7;border-bottom:1px solid #e8e8e8;width:auto;padding:12.632px 14px 0;overflow:auto}.leftCol{width:100%;float:left;margin-bottom:22.652px}.rightCol{width:100%;float:left;margin-bottom:22.652px}.experience{width:auto;padding:22.652px 14px 0;float:none}aside{width:auto;margin-top:0;padding:0 14px 0;float:none}.bottom{background-color:#f3f2ee;width:auto;padding:12.632px 8.653px}.footer{background:#b31b1b url(../images/ILRbrand320.gif) no-repeat bottom left;width:auto;height:92px;padding:0}@media only screen and (min-width: 321px){h1{font-size:59.301px}.navigation{background:#4d4e53 url(../images/nav480.gif) no-repeat top left;width:auto;height:45px;padding:0}.ILRis{margin-bottom:20.438px}.titles img{display:block;float:left;margin-right:20.438px;margin-bottom:14px;width:auto;height:200px}.footer{background:#b31b1b url(../images/ILRbrand480.gif) no-repeat bottom left;width:auto;height:211px;padding:0}}@media only screen and (min-width: 481px){.banner{background:#b31b1b url(../images/CUlogo75.gif) no-repeat top left;width:960px;height:75px;margin:0 auto;padding:0}.navigation{background:#4d4e53 url(../images/nav600.gif) no-repeat top left;width:auto;height:45px;padding:0}.top{background:#dbddd5 url(../images/SamB.jpg) no-repeat top left;min-height:300px;padding:12.632px 22.652px}.spotlight{width:320px;float:right}.titles h2,.titles ul{color:#fff}.titles img{display:none}.contactLinks{padding:20.438px 22.652px 0}.leftCol{width:350px;float:left}.rightCol{width:auto;float:left}.experience{padding:22.652px 22.652px 0}aside{padding:22.652px 22.652px 0}.footer{background:#b31b1b url(../images/ILRbrand768.gif) no-repeat bottom left;width:auto;height:75px;padding:0}}@media only screen and (min-width: 769px){h1.ilr{padding-left:14px}img{width:auto;height:auto}.navigation{background:#4d4e53 url(../images/nav600.gif) no-repeat top left;width:960px;height:45px;margin:0 auto;padding:0}.top{width:960px;height:400px;margin:0 auto;padding:0 53.506px;overflow:hidden}.spotlight{width:490px;float:right;position:relative;top:30px}.ILRis{width:100%}.titles{background-color:rgba(118,133,129,0.4);color:#fff;width:490px;height:305px;padding-top:33.069px;padding-left:33.069px;position:relative}.titles img{display:none}.titles h2{color:#fff;font-weight:600;margin-bottom:14px}.titles ul{font-size:18px;line-height:2}.titles p{font-size:18px;font-weight:600;position:absolute;bottom:50px}.middle{width:960px;margin:0 auto;padding:0 0 22.652px;overflow:auto}.contactLinks{background-color:#f7f7f7;width:960px;padding:0 53.506px 86.572px;overflow:hidden;-moz-box-shadow:0 10px 15px -10px #959595;-webkit-box-shadow:0 10px 15px -10px #959595;box-shadow:0 10px 15px -10px #959595}.leftCol{width:350px;margin-bottom:0;padding-top:36.651px;float:left}.rightCol{background-color:#fff;width:490px;min-height:210px;padding:36.651px 0 33.069px 33.069px;margin-right:6px;margin-bottom:0;float:right;-moz-box-shadow:0 2px 2px 1px #959595;-webkit-box-shadow:0 2px 2px 1px #959595;box-shadow:0 2px 2px 1px #959595}.experience{width:720px;margin-top:36.651px;padding:0 53.506px 0 59.301px;float:left}aside{width:240px;margin-top:36.651px;padding:0;float:right}aside h3{color:#707070}aside p{font-size:12.632px;color:#898989}aside li{font-size:12.632px;color:#898989;list-style:none;background:url(../images/squareBulletSm.gif) no-repeat 0 6px;padding:0 0 0 12.632px}.middle img{padding-left:22.652px;float:right}.bottom{background-color:#fff;height:100px;width:960px;margin:0 auto;padding:22.652px 53.506px}}
+/*---------------------------------------------------------------
+
+	Resetting the styles overrides all default browswer
+	styles. This particular sheet was developed
+	by Eric Meyer (www.meyerweb.com)
+		
+---------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*------------------- HTML5 -------------------------------------*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+audio:not([controls]) {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+html {
+  line-height: 1; }
+
+body {
+  font-family: "Myriad Web Pro", san-serif;
+  font-size: 16px;
+  /*scale origin*/ }
+
+p {
+  color: #212121;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0 0 20.438px 0; }
+
+h1, h2, h3, h4 {
+  color: #212121; }
+
+h1 {
+  font-size: 59.301px;
+  font-weight: 200;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0; }
+
+h1.ilr {
+  font-family: "AnomolyMedium";
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0px 2px 3px #000;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#363636,direction=180,strength=5);
+  padding-left: 0; }
+
+h2 {
+  font-size: 22.652px;
+  font-weight: 200;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  font-size: 20.438px;
+  font-weight: 200;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0; }
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.46;
+  margin: 0;
+  padding: 0; }
+
+h3 + h4 {
+  padding-top: 14px; }
+
+ul {
+  line-height: 1.618; }
+
+ul.bullets li {
+  list-style: none;
+  background: url(../images/squareBulletLg.gif) no-repeat 0 9px;
+  padding: 0 0 0 14px; }
+
+ul + h2, ul + h3, ul + h4 {
+  padding-top: 20.438px; }
+
+a, a:visited {
+  color: #92210f;
+  text-decoration: none;
+  outline: 0; }
+
+a:hover, a:focus {
+  color: #92210f;
+  text-decoration: underline; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+
+h1 {
+  font-size: 36.651px; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; }
+
+.banner {
+  background: #b31b1b;
+  width: 100%;
+  margin: 0 auto; }
+
+.lockup {
+  background: #b31b1b url(../images/CUlogo45.gif) no-repeat top left;
+  width: auto;
+  height: 45px;
+  padding: 0; }
+
+.navigation {
+  background: #4d4e53;
+  width: 100%;
+  margin: 0 auto; }
+
+.nav {
+  background: #4d4e53 url(../images/nav320.gif) no-repeat top left;
+  width: auto;
+  height: 45px;
+  padding: 0; }
+
+.top {
+  background-color: #b3b3aa;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+  -moz-box-shadow: 0 4px 10px 0px #959595;
+  -webkit-box-shadow: 0 4px 10px 0px #959595;
+  box-shadow: 0 4px 10px 0px #959595; }
+
+.spotlight {
+  width: auto;
+  padding: 12.632px 14px; }
+
+.photo {
+  width: 100%;
+  float: left; }
+  .photo img {
+    margin-bottom: 14px; }
+
+.nameInfo {
+  width: 100%;
+  padding-bottom: 12.632px;
+  float: left; }
+  .nameInfo ul {
+    margin-bottom: 14px; }
+
+.middle {
+  width: 100%;
+  padding: 20.438px 0 0 0; }
+
+aside {
+  border-bottom: 1px solid #e8e8e8;
+  width: auto;
+  margin-top: 0;
+  padding: 0 14px 33.069px 14px;
+  float: none; }
+  aside .infoBox {
+    background-color: transparent;
+    width: 100%; }
+    aside .infoBox ul {
+      padding-bottom: 20.438px; }
+  aside .expertise p {
+    padding-bottom: 0; }
+  aside .expertise ul {
+    margin-bottom: 14px; }
+
+.experience {
+  background-color: #f7f7f7;
+  width: auto;
+  padding: 22.652px 14px 0;
+  float: none; }
+
+.footer {
+  background: #b31b1b;
+  width: 100%;
+  margin: 0 auto; }
+
+.logo {
+  background: #b31b1b url(../images/ILRbrand320.gif) no-repeat bottom left;
+  width: auto;
+  height: 92px;
+  padding: 0; }
+
+@media only screen and (min-width: 321px) {
+  h1 {
+    font-size: 59.301px; }
+
+  .nav {
+    background: #4d4e53 url(../images/nav480.gif) no-repeat top left;
+    width: auto;
+    height: 45px;
+    padding: 0; }
+
+  .top {
+    background: #b3b3aa url(../images/topBkgd.gif) repeat top left; }
+
+  .photo img {
+    display: block;
+    float: left;
+    margin-right: 20.438px;
+    width: auto;
+    height: 200px;
+    -moz-box-shadow: 0 3px 5px 0px #636363;
+    -webkit-box-shadow: 0 3px 5px 0px #636363;
+    box-shadow: 0 3px 5px 0px #636363; }
+
+  .logo {
+    background: #b31b1b url(../images/ILRbrand480.gif) no-repeat bottom left;
+    width: auto;
+    height: 211px;
+    padding: 0; } }
+@media only screen and (min-width: 481px) {
+  .lockup {
+    background: #b31b1b url(../images/CUlogo75.gif) no-repeat top left;
+    width: auto;
+    height: 75px;
+    margin: 0;
+    padding: 0; }
+
+  .nav {
+    background: #4d4e53 url(../images/nav600.gif) no-repeat top left;
+    width: auto;
+    height: 45px;
+    padding: 0; }
+
+  .top {
+    min-height: 300px;
+    margin: 0;
+    padding: 12.632px 0; }
+
+  .spotlight {
+    padding: 12.632px 0; }
+
+  .photo {
+    width: auto;
+    padding: 0 22.652px;
+    float: left; }
+
+  .nameInfo {
+    width: 500px;
+    padding-right: 14px;
+    float: left; }
+
+  aside {
+    padding: 0 22.652px 22.652px 22.652px;
+    overflow: hidden; }
+    aside .infoBox {
+      border-top: 1px solid #e8e8e8;
+      border-bottom: 1px solid #e8e8e8;
+      margin-bottom: 20.438px;
+      padding-top: 20.438px;
+      width: 50%;
+      min-height: 240px;
+      float: left; }
+      aside .infoBox ul {
+        padding-bottom: 0; }
+    aside .expertise ul {
+      overflow: auto; }
+    aside .expertise li {
+      width: 50%;
+      float: left; }
+
+  .experience {
+    padding: 22.652px 22.652px 0; }
+
+  .logo {
+    background: #b31b1b url(../images/ILRbrand768.gif) no-repeat bottom left;
+    width: auto;
+    height: 75px;
+    margin: 0;
+    padding: 0; } }
+@media only screen and (min-width: 769px) {
+  h1.ilr {
+    padding-left: 14px; }
+
+  img {
+    width: auto;
+    height: auto; }
+
+  .lockup {
+    width: 960px;
+    margin: 0 auto; }
+
+  .nav {
+    background: #4d4e53 url(../images/nav600.gif) no-repeat top left;
+    width: 960px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0; }
+
+  .top {
+    background: #b3b3aa url(../images/spotlightBkgd.gif) repeat-x top center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; }
+
+  .spotlight {
+    background: #b3b3aa url(../images/spotlightBkgd.gif) no-repeat top center;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 12.632px 0;
+    overflow: hidden; }
+    .spotlight img {
+      float: left; }
+
+  .photo {
+    width: 240px;
+    padding: 22.652px 0 0 33.069px; }
+
+  .nameInfo {
+    width: 720px;
+    height: 305px;
+    padding: 22.652px 53.506px 0 59.301px; }
+    .nameInfo h2 {
+      font-weight: 600;
+      margin-bottom: 8.653px; }
+    .nameInfo ul {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 14px; }
+
+  .middle {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 0 22.652px;
+    overflow: auto; }
+
+  aside {
+    border-bottom: none;
+    width: 240px;
+    margin-top: 36.651px;
+    padding: 0 0 0 33.069px;
+    float: left;
+    overflow: auto; }
+    aside h3 {
+      color: #707070; }
+    aside p {
+      font-size: 12.632px;
+      color: #898989; }
+    aside li {
+      font-size: 12.632px;
+      color: #898989;
+      list-style: none;
+      background: url(../images/squareBulletSm.gif) no-repeat 0 6px;
+      padding: 0 0 0 12.632px; }
+    aside .infoBox {
+      background-color: transparent;
+      border-top: none;
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-top: 0;
+      width: 100%;
+      min-height: 0;
+      float: none; }
+      aside .infoBox ul {
+        padding-bottom: 20.438px; }
+    aside .expertise li {
+      width: 100%;
+      float: none; }
+
+  .experience {
+    background-color: transparent;
+    width: 720px;
+    margin-top: 36.651px;
+    padding: 0 53.506px 0 59.301px;
+    float: right; }
+
+  .logo {
+    width: 960px;
+    margin: 0 auto; } }

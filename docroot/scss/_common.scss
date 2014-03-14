@@ -14,6 +14,12 @@ img {
 }
 
 .banner {
+  background: $cornell;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.lockup {
   background: $cornell url(../images/CUlogo45.gif) no-repeat top left;
   width: auto;
   height: 45px;
@@ -21,6 +27,12 @@ img {
 }
 
 .navigation {
+  background: $nav-bkgd;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
   background: $nav-bkgd url(../images/nav320.gif) no-repeat top left;
   width: auto;
   height: 45px;
@@ -28,78 +40,87 @@ img {
 }
 
 .top {
-  background-color: $ILRis;
-  width: auto;
-  padding: $mod-01 $mod00;
+  background-color: $sand;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
   overflow: auto;
+  -moz-box-shadow: 0 4px 10px 0px $shadow;
+  -webkit-box-shadow: 0 4px 10px 0px $shadow;
+  box-shadow: 0 4px 10px 0px $shadow;
 }
 
 .spotlight {
-  width: 100%;
-  float: left;
+  width: auto;
+  padding: $mod-01 $mod00;
 }
 
-.ILRis {
-  width: 100%;
-  height: 45px;
-  float: left;
-}
-
-.titles {
-  background-color: transparent;
+.photo {
   width: 100%;
   float: left;
 
   img {
-    display: none;
+    margin-bottom: $mod00;
+  }
+}
+
+.nameInfo {
+  width: 100%;
+  padding-bottom: $mod-01;
+  float: left;
+
+  ul {
+    margin-bottom: $mod00;
   }
 }
 
 .middle {
   width: 100%;
-  padding: 0 0 $mod-01 0;
+  padding: $mod01 0 0 0;
 }
 
-.contactLinks {
-  background-color: $light-grey;
+aside {
   border-bottom: 1px solid $grey;
   width: auto;
-  padding: $mod-01 $mod00 0;
-  overflow: auto; //clearfix
-}
+  margin-top: 0;
+  padding: 0 $mod00 $mod03 $mod00;
+  float: none;
 
-.leftCol {
-  width: 100%;
-  float: left;
-  margin-bottom: $mod02;
-}
+  .infoBox {
+    background-color: transparent;
+    width: 100%;
 
-.rightCol {
-  width: 100%;
-  float: left;
-  margin-bottom: $mod02;
+    ul {
+      padding-bottom: $mod01;
+    }
+  }
+
+  .expertise {
+
+    p {
+      padding-bottom: 0;
+      }
+
+    ul {
+      margin-bottom: $mod00;
+    }
+  }
 }
 
 .experience {
+  background-color: $light-grey;
   width: auto;
   padding: $mod02 $mod00 0;
   float: none;
 }
 
-aside {
-  width: auto;
-  margin-top: 0;
-  padding: 0 $mod00 0;
-  float: none;
-}
-
-.bottom {
-  background-color: #f3f2ee;
-  width: auto;
-  padding: $mod-01 $mod-02;
-}
-
 .footer {
+  background: $cornell;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
   background: $cornell url(../images/ILRbrand320.gif) no-repeat bottom left;
   width: auto;
   height: 92px;
@@ -111,29 +132,31 @@ aside {
     font-size: $mod06;
   }
 
-  .navigation {
+  .nav {
     background: $nav-bkgd url(../images/nav480.gif) no-repeat top left;
     width: auto;
     height: 45px;
     padding: 0;
   }
 
-  .ILRis {
-    margin-bottom: $mod01;
+  .top {
+    background: $sand url(../images/topBkgd.gif) repeat top left;
   }
 
-  .titles {
+  .photo {
     img {
       display: block;
       float: left;
       margin-right: $mod01;
-      margin-bottom: $mod00;
       width: auto;
       height: 200px;
+      -moz-box-shadow: 0 3px 5px 0px $shadow-dark;
+      -webkit-box-shadow: 0 3px 5px 0px $shadow-dark;
+      box-shadow: 0 3px 5px 0px $shadow-dark;
     }
   }
 
-  .footer {
+  .logo {
     background: $cornell url(../images/ILRbrand480.gif) no-repeat bottom left;
     width: auto;
     height: 211px;
@@ -142,15 +165,15 @@ aside {
 }
 
 @media only screen and (min-width: 481px) {
-  .banner {
+  .lockup {
     background: $cornell url(../images/CUlogo75.gif) no-repeat top left;
-    width: 960px;
+    width: auto;
     height: 75px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
 
-  .navigation {
+  .nav {
     background: $nav-bkgd url(../images/nav600.gif) no-repeat top left;
     width: auto;
     height: 45px;
@@ -158,51 +181,67 @@ aside {
   }
 
   .top {
-    background: $ILRis url(../images/SamB.jpg) no-repeat top left;
     min-height: 300px;
-    padding: $mod-01 $mod02;
+    margin: 0;
+    padding: $mod-01 0;
   }
 
   .spotlight {
-    width: 320px;
-    float: right;
+    padding: $mod-01 0;
   }
 
-  .titles {
-    h2, ul {
-      color: #fff;
-    }
-    img {
-      display: none;
-    }
-  }
-
-  .contactLinks {
-    padding: $mod01 $mod02 0;
-  }
-
-  .leftCol {
-    width: 350px;
-    float: left;
-  }
-
-  .rightCol {
+  .photo {
     width: auto;
+    padding: 0 $mod02;
     float: left;
+  }
+
+  .nameInfo {
+    width: 500px;
+    padding-right: $mod00;
+    float: left;
+  }
+
+  aside {
+    padding: 0 $mod02 $mod02 $mod02;
+    overflow: hidden;
+
+    .infoBox {
+      border-top: 1px solid $grey;
+      border-bottom: 1px solid $grey;
+      margin-bottom: $mod01;
+      padding-top: $mod01;
+      width: 50%;
+      min-height: 240px;
+      float: left;
+
+      ul {
+        padding-bottom: 0;
+      }
+    }
+
+    .expertise {
+
+      ul{
+        overflow: auto;
+      }
+
+      li {
+        width: 50%;
+        float: left;
+      }
+    }
   }
 
   .experience {
     padding: $mod02 $mod02 0;
   }
 
-  aside {
-    padding: $mod02 $mod02 0;
-  }
-
-  .footer {
+  .logo {
     background: $cornell url(../images/ILRbrand768.gif) no-repeat bottom left;
     width: auto;
     height: 75px;
+    margin: 0;
     padding: 0;
   }
 }
@@ -211,13 +250,18 @@ aside {
     h1.ilr {
     padding-left: 14px;
   }
-      
+
   img {
     width: auto;
     height: auto;
   }
 
-  .navigation {
+  .lockup {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .nav {
     background: $nav-bkgd url(../images/nav600.gif) no-repeat top left;
     width: 960px;
     height: 45px;
@@ -226,54 +270,45 @@ aside {
   }
 
   .top {
-    width: 960px;
-    height: 400px;
+    background: $sand url(../images/spotlightBkgd.gif) repeat-x top center;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 $mod05;
-    overflow: hidden;
+    padding: 0;
   }
 
   .spotlight {
-    width: 490px;
-    float: right;
-    position: relative;
-    top: 30px;
-  }
-
-  .ILRis {
-    width: 100%;
-    /*margin-bottom: 0;*/
-  }
-
-  .titles {
-    background-color: rgba(118,133,129,0.4);
-    color: #fff;
-    width: 490px;
-    height: 305px;
-    padding-top: $mod03;
-    padding-left: $mod03;
-    position: relative;
+    background: $sand url(../images/spotlightBkgd.gif) no-repeat top center;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    padding: $mod-01 0;
+    overflow: hidden;
 
     img {
-      display: none;
+      float: left;
     }
+  }
+
+  .photo {
+    width: 240px;
+    padding: $mod02 0 0 $mod03;
+  }
+
+  .nameInfo {
+    //background-color: rgba(118,133,129,0.4);
+    width: 720px;
+    height: 305px;
+    padding: $mod02 $mod05 0 $mod06;
 
     h2 {
-      color: #fff;
       font-weight: 600;
-      margin-bottom: 14px;
+      margin-bottom: $mod-02;
     }
 
     ul {
       font-size: 18px;
-      line-height: 2;
-    }
-
-    p {
-      font-size: 18px;
-      font-weight: 600;
-      position: absolute;
-      bottom: 50px;
+      line-height: 1.5;
+      margin-bottom: $mod00;
     }
   }
 
@@ -284,48 +319,13 @@ aside {
     overflow: auto;
   }
 
-  .contactLinks {
-    background-color: $light-grey;
-    width: 960px;
-    padding: 0 $mod05 $mod07;
-    overflow: hidden;
-    -moz-box-shadow: 0 10px 15px -10px $shadow;
-    -webkit-box-shadow: 0 10px 15px -10px $shadow;
-    box-shadow: 0 10px 15px -10px $shadow;
-  }
-
-  .leftCol {
-    width: 350px;
-    margin-bottom: 0;
-    padding-top: $mod04;
-    float: left;
-  }
-
-  .rightCol {
-    background-color: #fff;
-    width: 490px;
-    min-height: 210px;
-    padding: $mod04 0 $mod03 $mod03;
-    margin-right: 6px;
-    margin-bottom: 0;
-    float: right;
-    -moz-box-shadow: 0 2px 2px 1px $shadow;
-    -webkit-box-shadow: 0 2px 2px 1px $shadow;
-    box-shadow: 0 2px 2px 1px $shadow;
-  }
-
-  .experience {
-    width: 720px;
-    margin-top: $mod04;
-    padding: 0 $mod05 0 $mod06;
-    float: left;
-  }
-
   aside {
+    border-bottom: none;
     width: 240px;
     margin-top: $mod04;
-    padding: 0;
-    float: right;
+    padding: 0 0 0 $mod03;
+    float: left;
+    overflow: auto;
 
     h3 {
       color: $aside-h;
@@ -343,18 +343,41 @@ aside {
       background: url(../images/squareBulletSm.gif) no-repeat 0 6px;
       padding: 0 0 0 $mod-01;
     }
+
+    .infoBox {
+      background-color: transparent;
+      border-top: none;
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-top: 0;
+      width: 100%;
+      min-height: 0;
+      float: none;
+
+      ul {
+        padding-bottom: $mod01;
+      }
+    }
+
+    .expertise {
+
+      li {
+        width: 100%;
+        float: none;
+      }
+    }
   }
 
-  .middle img {
-    padding-left: $mod02;
+  .experience {
+    background-color: transparent;
+    width: 720px;
+    margin-top: $mod04;
+    padding: 0 $mod05 0 $mod06;
     float: right;
   }
 
-  .bottom {
-    background-color: #fff;
-    height: 100px;
+  .logo {
     width: 960px;
     margin: 0 auto;
-    padding: $mod02 $mod05;
   }
 }
