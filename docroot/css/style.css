@@ -212,6 +212,13 @@ img {
   float: left; }
   .nameInfo ul {
     margin-bottom: 14px; }
+  .nameInfo .carousel {
+    width: 100%; }
+    .nameInfo .carousel p {
+      padding: 0 0 12.632px 0; }
+    .nameInfo .carousel img {
+      width: 112px;
+      height: 20px; }
 
 .middle {
   width: 100%;
@@ -388,6 +395,10 @@ aside {
       font-size: 18px;
       line-height: 1.5;
       margin-bottom: 14px; }
+    .nameInfo .carousel p {
+      float: left; }
+    .nameInfo .carousel img {
+      float: right; }
 
   .middle {
     width: 960px;

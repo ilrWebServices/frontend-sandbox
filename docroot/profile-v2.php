@@ -23,7 +23,11 @@ include("includes/headerProfiles.php");
               <li>Director, Institute for Workplace Studies</li>
               <li>Director, Smithers Institute</li>
             </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Professor Bacharach focuses on bridging theory and practice. Integrating his earlier work on politics, negotiation, and complex organizations into his studies of the workplace, he has re-examined the role of leadership.</p>
+            <div class="carousel">
+              <p><a href="">More</a></p>
+              <img alt="buttons" title="buttons" src="/images/carouselButtons.png" />
+            </div>
           </div><!-- end nameInfo -->
       </div><!-- end spotlight -->
     </div><!-- end top -->

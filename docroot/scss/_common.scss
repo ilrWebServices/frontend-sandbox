@@ -72,6 +72,19 @@ img {
   ul {
     margin-bottom: $mod00;
   }
+
+  .carousel {
+    width: 100%;
+
+    p{
+      padding: 0 0 $mod-01 0;
+    }
+
+    img {
+      width: 112px;
+      height: 20px;
+    }
+  }
 }
 
 .middle {
@@ -309,6 +322,17 @@ aside {
       font-size: 18px;
       line-height: 1.5;
       margin-bottom: $mod00;
+    }
+
+    .carousel {
+
+      p {
+        float: left;
+      }
+
+      img {
+        float: right;
+      }
     }
   }
 
