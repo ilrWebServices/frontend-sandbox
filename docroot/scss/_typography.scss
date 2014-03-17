@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  font-family: "Myriad Web Pro", san-serif;
+  // font-family: "Myriad Web Pro", san-serif;
+  font-family: "Open Sans", san-serif;
   font-size: 16px; /*scale origin*/
 }
 
@@ -15,6 +16,7 @@ p {
 }
 
 h1, h2, h3, h4 {
+  font-family: "Marcellus", san-serif;
   color: $h-text;
 }
 

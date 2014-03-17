@@ -10,6 +10,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="alternate" type="application/rss+xml" title="Cornell University | ILR School RSS" href="http://www.ilr-website.dev/rss.xml" />
   <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
   <title>Cornell University | ILR School</title>
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
