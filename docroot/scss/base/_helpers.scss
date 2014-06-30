@@ -1,11 +1,15 @@
 // ==================================================
 // Non-semantic Helper Classes
 // ==================================================
-
 // Hide from both screenreaders and browsers: h5bp.com/u
 .hidden {
   display: none !important;
   visibility: hidden;
+}
+
+.visible {
+  display: block !important;
+  visibility: visible;
 }
 
 // When you dont want links clickable
@@ -34,28 +38,31 @@
   width: auto;
 }
 
-// Hide visually and from screenreaders, but maintain layout
-.invisible { visibility: hidden; }
-
 // ==================================================
 // clearing
 // ==================================================
-// You can also use a <br class="clear" /> to clear columns
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
+// Use clearfix class on parent to clear nested columns
 
-// Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row">
-.clearfix:before, .clearfix:after, .row:before, .row:after {
+.clearfix:before, .clearfix:after{
   content: '\0020';
   display: block;
   overflow: hidden;
   visibility: hidden;
+  clear: both;
   width: 0;
   height: 0;
+  font-size: 0;
+  content: " ";
 }
+
+// ==================================================
+// basic alignment
+// ==================================================
+.float-left    { float: left }
+.float-right   { float: right }
+
+.alignleft     { float: left; margin: 0 1em 1em 0;}
+.aligncenter   { text-align: center; clear: both; margin: 20px auto; display: block;}
+.alignright    { float: right; margin: 20px 0px 20px 20px;}
+.alignnone     { margin: 20px 0px 20px 0px;}
+.center        { margin: 0 auto }
