@@ -1,0 +1,26 @@
+.pullQuote {
+  background: $gold;
+  width: 270px;
+  height: 240px;
+  padding: 15px 20px 20px 20px;
+  float: left;
+  p {
+    font-family: freight-text-pro;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.25;
+    padding: 0 5px 0 5px;
+  }
+  p.quote:after {
+    content: url(/images/quote-after.gif);
+  }
+  p.name {
+    color: $pullQuote-brown;
+    font-family: freight-sans-pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 15px 0 0 0;
+    text-align: right;
+  }
+}

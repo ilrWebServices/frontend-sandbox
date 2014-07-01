@@ -1,0 +1,82 @@
+.profile {
+  background: $gray-bkgd;
+  width: 720px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  p {
+    font-family: freight-text-pro;
+    font-size: 26px;
+    line-height: 1;
+    text-align: right;
+    padding: 0 30px 0 0;
+    position: relative;
+    z-index: 20;
+    text-shadow: 1px 1px 2px #000;
+    filter: progid:DXImageTransform.Microsoft.dropShadow(color=#484848,offX=2,offY=2)
+    progid:DXImageTransform.Microsoft.Alpha(opacity=98);
+  }
+  p.name {
+    color: $ochre;
+    font-family: freight-sans-pro;
+    font-size: 46px;
+    padding: 200px 30px 5px 0;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+}
+
+.profileThumb {
+  background: $profile-blue;
+  width: 360px;
+  height: 300px;
+  margin: 0;
+  padding: 30px 10px 0 30px;
+  float: left;
+  li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+    overflow: auto; /*Only needed if img has class floatLeft*/
+  }
+  img {
+    padding: 0 20px 0 0;
+  }
+  img.floatLeft {
+    float: left;
+  }
+  img.inlineBlock {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  p {
+    font-weight: 400;
+    line-height: 1.25;
+    padding: 0;
+    padding-top: 25px;
+  }
+  p.inlineBlock {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1.25;
+    padding: 0;
+  }
+  p em, p.inlineBlock em {
+    color: $profile-name;
+    font-family: freight-sans-pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0;
+  }
+}

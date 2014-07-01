@@ -1,0 +1,63 @@
+.newsCard {
+  background: $gray-bkgd;
+  width: 450px;
+  height: 240px;
+  padding: 40px 60px 0 60px;
+  float: left;
+  text-align: center;
+  p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  p.date {
+    color: $gray-light;
+    font-family: freight-text-pro;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  hr {
+    background-color: $gold;
+    border-color: $gold;
+    border-style: solid;
+    height: 1px;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+}
+
+.newsCardHeading {
+  background: url(/images/world-bkgd.gif) top center no-repeat $gray-bkgd;
+  width: 450px;
+  height: 300px;
+  padding: 32px 60px 0 60px;
+  float: left;
+  text-align: center;
+  p {
+    color: #fff;
+    font-family: freight-text-pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  p.date {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+  h2 {
+    color: $gray-light;
+    font-family: freight-sans-pro;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+}
