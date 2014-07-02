@@ -1,0 +1,29 @@
+.list {
+  width: 320px;
+  padding: 20px 20px 20px 50px;
+  li.circle {
+    list-style: none;
+    list-style-image: url(/images/listCircle.gif);
+    margin-left: 15px;
+    padding-left: 5px;
+  }
+  li.square {
+    list-style: none;
+    list-style-image: url(/images/listSquare.gif);
+    margin-left: 15px;
+    padding-left: 5px;
+  }
+  li.rectRed {
+    background: none;
+    list-style: none;
+    list-style-image: url(/images/listRectRed.gif);
+    margin-left: 12px;
+    padding-left: 5px;
+  }
+  li.rectYellow {
+    list-style: none;
+    list-style-image: url(/images/listRectYellow.gif);
+    margin-left: 12px;
+    padding-left: 5px;
+  }
+}

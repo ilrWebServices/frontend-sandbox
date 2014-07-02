@@ -11,6 +11,7 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
   h2 {
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.25;
@@ -32,5 +33,51 @@
       padding-left: 3px;
       vertical-align: 30%;
     }
+  }
+  p.redDate {
+    color: #c87070;
+  }
+}
+
+.red {
+  background: #92210f;
+}
+
+// Alternate layout that uses inline-block to line up date and heading
+.eventSlugInline {
+  color: #fff;
+  background: #686d72;
+  width: 240px;
+  height: 120px;
+  margin: 0;
+  padding: 27px 0 0 15px;
+  float: left;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  p {
+    color: #f0b04e;
+    font-size: 48px;
+    line-height: 45px;
+    padding-right: 6px;
+    em {
+      font-size: 28px;
+      font-style: normal;
+      padding-left: 3px;
+      vertical-align: 30%;
+    }
+  }
+  h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.25;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+  }
+  .inline {
+    display: inline-block;
+    vertical-align: middle;
   }
 }

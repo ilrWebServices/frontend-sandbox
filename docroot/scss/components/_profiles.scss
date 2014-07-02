@@ -1,0 +1,40 @@
+.profileThumb {
+  background: #fff;
+  width: 360px;
+  height: 300px;
+  margin: 0;
+  padding: 30px 0 0 20px;
+  float: left;
+  li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+    overflow: auto; /*Only needed if img has class floatLeft*/
+  }
+  img {
+    padding: 0 20px 0 0;
+  }
+  img.inlineBlock {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  p.inlineBlock {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1.25;
+    padding: 0;
+  }
+}
+
+.profileThumb p em, .profileThumb p.inlineBlock em {
+  color: #898989;
+  font-family: freight-text-pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0;
+}
