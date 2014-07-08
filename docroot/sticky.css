@@ -1,0 +1,245 @@
+
+/*----------------------------------------------------
+RESET/IMPORT STYLES by Eric Meyer (www.meyerweb.com)
+-----------------------------------------------------*/
+
+/* Do not add sup and sub to the reset list below, they will not resize properly */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content: '';
+content: none;
+}
+:focus {
+outline: 0;
+}
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/***************************/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+min-height: 100%;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: freight-sans-pro;
+min-height: 100%;
+margin: 0;
+padding: 0;
+}
+
+p {
+color: #000;
+font-family: freight-sans-pro;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.618;
+padding-bottom: 20px;
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+h1 {
+font-family: freight-text-pro;
+font-size: 26px;
+font-weight: 300;
+color: #666;
+line-height: 1;
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+h2 {
+font-family: freight-text-pro;
+font-size: 20px;
+font-weight: 300;
+line-height: 1;
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+ul {
+padding-bottom: 15px;
+}
+
+li {
+list-style: circle;
+font-family: freight-sans-pro;
+font-size: 16px;
+line-height: 1.618;
+margin-left: 20px;
+}
+
+.wrapper {
+width: 100%;
+margin: 0 auto;
+padding: 30px 0 100px 0;
+}
+
+.banner {
+border-bottom: 1px solid #ccc;
+width: 1080px;
+margin: 0 auto;
+padding: 0;
+}
+
+#header-sticky-wrapper {
+width: 1080px;
+margin: 0 auto;
+position: relative;
+}
+
+#header {
+background: #f7f7f7;
+border-bottom: 1px solid #ccc;
+width: 1080px;
+margin: 0 auto 20px auto;
+padding: 20px 0 0 0;
+position: relative;
+z-index: 50;
+}
+
+.content {
+width: 1080px;
+margin: 0 auto 20px auto;
+padding: 0;
+overflow: hidden;
+}
+
+.eventSlug {
+background: #92210f;
+width: 360px;
+height: 300px;
+margin: 0;
+padding: 20px 30px 30px 30px;
+float: left;
+}
+
+.eventSlug p {
+color: #fff;
+}
+
+.eventSlug .date {
+border-bottom: 1px solid #b31b1b;
+font-family: freight-text-pro;
+font-size: 36px;
+line-height: 1;
+margin-bottom: 10px;
+}
+
+.eventSlug h2 {
+color: #fff;
+font-size: 24px;
+font-weight: 300;
+line-height: 1.25;
+margin-bottom: 10px;
+}
+
+.eventSlug .date em {
+font-style: normal;
+font-size: 48px;
+padding-right: 5px;
+}
+
+.eventSlug .date span {
+font-style: normal;
+font-size: 30px;
+padding-right: 5px;
+}
+
+.profile {
+background: #686d72;
+width: 720px;
+height: 300px;
+margin: 0;
+padding: 0;
+position: relative;
+float: left;
+}
+
+.profile p {
+color: #fff;
+font-family: freight-text-pro;
+font-size: 26px;
+line-height: 1;
+text-align: right;
+padding: 0 30px 0 0;
+position: relative;
+z-index: 20;
+text-shadow: 1px 1px 2px #000;
+filter: progid:DXImageTransform.Microsoft.dropShadow(color=#484848,offX=2,offY=2)
+progid:DXImageTransform.Microsoft.Alpha(opacity=98);
+}
+
+.profile p.name {
+color: #e0ae4c;
+font-family: freight-sans-pro;
+font-size: 46px;
+padding: 200px 30px 5px 0;
+}
+
+.profile img {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 10;
+}
+
+.footer {
+background: #666;
+width: 100%;
+height: 300px;
+margin: 0;
+padding: 0;
+}
+
+.footer li {
+list-style: none;
+margin-left: 0;
+padding-right: 40px;
+float: left;
+}
