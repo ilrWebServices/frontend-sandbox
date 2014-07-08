@@ -26,6 +26,9 @@
 @import "components/tagged_content";
 @import "components/neutral_page";
 @import "components/404";
+@import "components/sticky_menu";
+@import "components/events";
+@import "components/profiles";
 
 // Layout
 @import "layout/base";
@@ -34,3 +37,5 @@
 
 // Vendor
 // Create a vendor folder if/when needed
+
+@import "sticky";

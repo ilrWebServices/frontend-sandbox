@@ -1,0 +1,15 @@
+#header-sticky-wrapper {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#header {
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  width: 1080px;
+  margin: 0 auto 20px auto;
+  padding: 20px 0 0 0;
+  position: relative;
+  z-index: 50;
+}
