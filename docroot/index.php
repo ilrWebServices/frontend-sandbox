@@ -1,26 +1,33 @@
-<?php 
+<?php
 include("includes/header.php");
 ?>
-<div class="wrapper">
-  <div class="card">
-    <img src="images/picture.jpg" alt="photo" />
-    <h1>Baseball Card Heading</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+<!-- <div class="wrapper"> -->
+  <div id="highlighted" class="region">
+    <p>highlighted</p>
   </div>
-  <div class="rolodex">
-    <img src="images/picture.jpg" alt="photo" />
-    <h1>Rolodex Heading</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+  <!-- <div id="sidebar_first" class="region">
+    <p>sidebar_first</p>
+  </div> -->
+
+  <div id="content" class="region">
+    <p>content</p>
   </div>
-  <div class="thumb">
-    <img src="images/picture.jpg" alt="photo" />
-    <h1>Thumb Heading</h1>
+
+  <div id="sidebar_first" class="region">
+    <p>sidebar_first</p>
   </div>
-  <div class="slug">
-    <h1>Slug Heading</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+  <div id="sidebar_second" class="region">
+    <p>sidebar_second</p>
   </div>
-</div>
-<?php 
+
+  <div id="content_bottom" class="region">
+    <p>content_bottom</p>
+  </div>
+<!-- </div> -->
+
+<?php
 include("includes/footer.php");
 ?>

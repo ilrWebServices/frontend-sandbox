@@ -1,0 +1,85 @@
+$include-clearfix: true;
+
+.wrapper {
+    // @include background-grid;
+    margin: 0 auto;
+    min-height: 1000px;
+  }
+
+.region {
+    min-height: 200px;
+    &#highlighted {
+      background: red;
+    }
+    &#content {
+      background: yellow;
+    }
+    &#sidebar_first {
+      background: green;
+    }
+    &#sidebar_second {
+      background: blue;
+    }
+    &#content_bottom {
+      background: grey;
+    }
+  }
+
+// @include breakpoint(769px 1024px) {
+
+//   $grids: 3 9;
+
+//   #highlighted {
+//     @include grid-span(2);
+//   }
+
+//   #content {
+//     @include grid-span(1, 2);
+//   }
+
+//   #sidebar_first {
+//     @include grid-span(1);
+//   }
+
+//   #sidebar_second {
+//     @include grid-span(2);
+//   }
+
+//   #content_bottom {
+//     @include grid-span(2);
+//   }
+
+// }
+
+@include breakpoint(1025px) {
+
+  $grids: 3 6 3;
+  $gutters: 1/3;
+  // $output: "float";
+
+
+  #highlighted {
+    @include grid-span(3);
+    // @include clearfix;
+  }
+
+  #content {
+    @include grid-span(1, 2);
+    // @include clearfix;
+  }
+
+  #sidebar_first {
+    @include grid-span(1, 1);
+    // @include clearfix;
+  }
+
+  #sidebar_second {
+    @include grid-span(1, 3);
+
+  }
+
+  #content_bottom {
+    @include grid-span(3);
+  }
+
+}
