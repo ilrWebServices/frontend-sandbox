@@ -1,5 +1,5 @@
 $grids: 3 6 3;
-$include-clearfix: true;
+// $gutters: 1/3;
 
 .wrapper {
     @include background-grid;
@@ -31,41 +31,30 @@ $include-clearfix: true;
   }
 
 
-
 // @include breakpoint(1025px) {
 
   // $grids: 3 6 3;
   // $gutters: 1/3;
 
-
-  // #highlighted {
-  //   @include grid-span(12, 1);
-  // }
-
   #featured {
-    @include grid-span(3, 1);
+    @include grid-span(3);
   }
 
   #content {
-    // @include grid-span(6, 4);
-    // @include grid-span(12, 1);
     @include grid-span(1, 2);
-    // clear: both;
-    min-height: 1000px;
+    clear: both;
   }
 
   #sidebar_first {
-    // @include grid-span(3, 1);
     @include grid-span(1, 1);
   }
 
   #sidebar_second {
-    // @include grid-span(3, 10);
     @include grid-span(1, 3);
   }
 
   #content_bottom {
-    @include grid-span(3, 1);
+    @include grid-span(3);
     clear: both;
   }
 
