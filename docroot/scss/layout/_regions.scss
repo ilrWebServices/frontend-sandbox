@@ -1,4 +1,4 @@
-$grids: 3 6 3;
+@include add-grid (3 6 3);
 // $gutters: 1/3;
 
 .wrapper {
@@ -29,7 +29,7 @@ $grids: 3 6 3;
       background: grey;
     }
   }
-
+//
 
 // @include breakpoint(1025px) {
 
