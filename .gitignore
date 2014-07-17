@@ -1,7 +1,7 @@
 *.sass-cache
 Gemfile.lock
 
-
+docroot/css/style.css
 
 
 
