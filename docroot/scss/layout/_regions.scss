@@ -9,6 +9,9 @@
 
 .region {
     min-height: 200px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
     &#featured {
       background: orange;
@@ -27,6 +30,7 @@
     }
     &#content_bottom {
       background: grey;
+      height: 300px;
     }
   }
 

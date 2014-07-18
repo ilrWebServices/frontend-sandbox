@@ -14,19 +14,30 @@ $mod-01: 12.62939px; //Based on mod scale. Number is not applied/calculated prop
 // ==================================================
 // Brand
 // ==================================================
+$black-bkgd: #252b2c;
 $brand: #941e12;
 $brand-dark: #363636;
 $brand-light: #ACACAC;
-$cornell-red: #b31b1b;
-$gold: #DED7BA;
-$gray-dark: #5c5350;
-$gray-medium: #8b8b85;
-$gray-light: #cfcdc4;
-$selection: #212121;
-$highlight: #ffc;
-$cornell-tan: #f0eee4;
-$bg-body: $brand;
 $content-area: #fff;
+$cornell-red: #b31b1b;
+$cornell-tan: #f0eee4;
+$gold: #f0b04e;
+$gray-bkgd: #686d72;
+$gray-ILRis: #e1e1e1;
+$gray-light: #cccccc;
+$gray-medium: #929299;
+$gray-dark: #666666;
+$gray-promo: #a1a1a1;
+$green-dark: #0e4d27;
+$highlight: #ffc;
+$ochre: #e0ae4c;
+$profile-blue: #2c5373;
+$profile-name: #ded7bb;
+$pullQuote-brown: #603913;
+$red-border: #5e1509;
+$red-dark: #92210f;
+$selection: #212121;
+$bg-body: $brand;
 
 // ==================================================
 // Typography
@@ -34,8 +45,8 @@ $content-area: #fff;
 // Varialbes here and implementation in _typography.scss
 // should probably be updated to a map
 // See https://medium.com/p/8e51498c3713
-$font: 'Open Sans', sans-serif;
-$font-headers: 'Marcellus', serif;
+$font: 'freight-sans-pro', sans-serif;
+$font-headers: 'freight-text-pro', serif;
 
 $h1-size: ms(3);
 $h2-size: ms(2);
