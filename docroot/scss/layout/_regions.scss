@@ -2,39 +2,50 @@
 // $gutters: 1/3;
 
 .wrapper {
-    //@include background-grid;
-    margin: 0 auto;
-    min-height: auto;
-  }
+  //@include background-grid;
+  margin: 0 auto;
+  min-height: auto;
+}
 
 .region {
-    min-height: 200px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  min-height: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 
-    &#featured {
-      background: orange;
-    }
-    &#highlighted {
-      background: red;
-    }
-    &#content {
-      // background: yellow;
-    }
-    &#sidebar_first {
-      // background: $gray-light;
-    }
-    &#sidebar_second {
-      background: #f1f1f1;
-    }
-    &#content_bottom {
-      background: grey;
-    }
+  &nav {
+    background: $gray-light;
   }
+  &#featured {
+    background: orange;
+  }
+  &#highlighted {
+    background: red;
+  }
+  &#content {
+    // background: yellow;
+  }
+  &#sidebar_first {
+    // background: $gray-light;
+  }
+  &#sidebar_second {
+    background: #f1f1f1;
+  }
+  &#content_bottom {
+    background: grey;
+  }
+  &footer {
+    background: $gray-dark;
+  }
+}
+
+nav {
+  @include grid-span(1);
+}
 
 #featured {
   @include grid-span(1);
+  height: 400px;
 }
 
 #content {
@@ -56,9 +67,17 @@
   height: 100%;
 }
 
+footer {
+  @include grid-span(1);
+}
+
 @include breakpoint(481px 768px) {
 
   @include add-grid (3 9);
+
+  nav {
+    @include grid-span(2);
+  }
 
   #featured {
     @include grid-span(2);
@@ -83,6 +102,10 @@
     @include grid-span(2);
     clear: both;
     height: 300px;
+  }
+
+  footer {
+    @include grid-span(2);
   }
 
 }
@@ -92,6 +115,10 @@
 
   @include add-grid (3 9);
 
+  nav {
+    @include grid-span(2);
+  }
+
   #featured {
     @include grid-span(2);
   }
@@ -115,6 +142,10 @@
     @include grid-span(2);
     clear: both;
     height: 300px;
+  }
+
+  footer{
+    @include grid-span(2);
   }
 
 }
@@ -126,6 +157,10 @@
 
   .layout4x8 {
     @include layout(4 8);
+  }
+
+  nav {
+    @include grid-span(3);
   }
 
   #featured {
@@ -151,6 +186,10 @@
     @include grid-span(3);
     clear: both;
     height: 300px;
+  }
+
+  footer{
+    @include grid-span(3);
   }
 
 }
