@@ -23,14 +23,13 @@
       // background: yellow;
     }
     &#sidebar_first {
-      background: $gray-light;
+      // background: $gray-light;
     }
     &#sidebar_second {
-      background: $gray-medium;
+      background: $gray-light;
     }
     &#content_bottom {
       background: grey;
-      //height: 300px;
     }
   }
 
@@ -45,6 +44,7 @@
 
 #sidebar_first {
   @include grid-span(1);
+  padding-top: 0;
 }
 
 #sidebar_second {
@@ -71,6 +71,7 @@
 
   #sidebar_first {
     @include grid-span(1, 1);
+    padding-top: ms(2);
   }
 
   #sidebar_second {
@@ -102,6 +103,7 @@
 
   #sidebar_first {
     @include grid-span(1, 1);
+    padding-top: ms(2);
   }
 
   #sidebar_second {
@@ -138,6 +140,7 @@
 
   #sidebar_first {
     @include grid-span(1, 1);
+    padding-top: ms(2);
   }
 
   #sidebar_second {

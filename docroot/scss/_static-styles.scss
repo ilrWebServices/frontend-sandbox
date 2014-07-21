@@ -17,16 +17,43 @@ h2 {
 -webkit-margin-after: 0;
 }
 
-ul {
-padding-bottom: 15px;
-}
+#sidebar_first {
+  ul {
+    margin: 0;
+    padding: 0 ms(0);
+    li {
+      background: none;
+      font-family: freight-sans-pro;
+      a {
+        color: $gray-dark;
+        display: block;
+        padding: 1em 0;
+        &:hover {
+          color: $brand;
+        }
+      }
+      a.active {
+        color: $cornell-red;
+        font-weight: 600;
+      }
+    }
+  }
 
-li {
-list-style: circle;
-font-family: freight-sans-pro;
-font-size: ms(0);
-line-height: 1.618;
-margin-left: 20px;
+  & > ul.menu { //first children only
+    //border-top: 1px solid #e7e5db;
+    //@include tablet-landscape-and-up {
+    //border-top: none;
+    //}
+
+    li {
+      list-style: none;
+      margin: 0;
+    }
+
+    & > li { //first children
+      border-bottom: 1px solid #e7e5db;
+    }
+  }
 }
 
 //.content

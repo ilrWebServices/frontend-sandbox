@@ -23,17 +23,17 @@ include("includes/header.php");
   </div>
 
   <div id="sidebar_first" class="region">
-    <p>sidebar_first</p>
-    <ul>
-      <li>News nav 1</li>
-      <li>News nav 2</li>
-      <li>News nav 3</li>
-      <li>News nav 4</li>
-      <li>News nav 5</li>
-      <li>News nav 6</li>
-      <li>News nav 7</li>
-      <li>News nav 8</li>
-      <li>News nav 9</li>
+    <!-- <p>sidebar_first</p> -->
+    <ul class="menu">
+      <li><a href="">News nav 1</a></li>
+      <li><a href="">News nav 2</a></li>
+      <li><a href="">News nav 3</a></li>
+      <li><a href="">News nav 4</a></li>
+      <li><a class="active" href="">News nav 5</a></li>
+      <li><a href="">News nav 6</a></li>
+      <li><a href="">News nav 7</a></li>
+      <li><a href="">News nav 8</a></li>
+      <li><a href="">News nav 9</a></li>
     </ul>
   </div>
 
