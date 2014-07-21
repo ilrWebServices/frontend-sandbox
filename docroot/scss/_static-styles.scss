@@ -1,21 +1,9 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 body {
-font-family: freight-sans-pro;
 -webkit-font-smoothing: antialiased;
 }
 
 p {
-color: #000;
-font-family: freight-sans-pro;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.618;
-padding-bottom: 20px;
+padding-bottom: ms(1);
 -webkit-margin-before: 0;
 -webkit-margin-after: 0;
 }
@@ -24,28 +12,7 @@ p+h2 {
   margin-top: 0;
 }
 
-a {
-color: #000;
-text-decoration: none;
-}
-
-h1 {
-font-family: freight-text-pro;
-font-size: 26px;
-font-weight: 300;
-color: $gray-dark;
-line-height: 1;
-margin: 0 0 20px 0;
-padding: 0;
-}
-
 h2 {
-font-family: freight-text-pro;
-font-size: 20px;
-font-weight: 300;
-line-height: 1;
-margin: 0 0 20px 0;
-padding: 0;
 -webkit-margin-before: 0;
 -webkit-margin-after: 0;
 }
@@ -57,7 +24,7 @@ padding-bottom: 15px;
 li {
 list-style: circle;
 font-family: freight-sans-pro;
-font-size: 16px;
+font-size: ms(0);
 line-height: 1.618;
 margin-left: 20px;
 }
