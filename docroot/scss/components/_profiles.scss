@@ -1,12 +1,14 @@
 .profile {
   background: $gray-bkgd;
-  width: 720px;
-  height: 300px;
+  //width: 720px;
+  //height: 300px;
+  height: 100%;
   margin: 0;
   padding: 0;
   position: relative;
   float: left;
   p {
+    color: #fff;
     font-family: freight-text-pro;
     font-size: 26px;
     line-height: 1;
@@ -25,11 +27,25 @@
     padding: 200px 30px 5px 0;
   }
   img {
+    width: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
   }
+}
+
+@include breakpoint(481px 1024px) {
+  .profile {
+    @include grid-span(9, 4);
+  }
+}
+
+@include breakpoint(1025px) {
+ .profile {
+    @include grid-span(8, 5);
+ }
 }
 
 .profileThumb {
