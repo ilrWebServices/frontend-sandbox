@@ -39,6 +39,9 @@ include("includes/header.php");
 
   <div id="sidebar_second" class="region">
     <p>sidebar_second</p>
+    <p>ILR News Center</p>
+    <p>ILR Events</p>
+    <p>Cornell News &amp; Events</p>
   </div>
 
   <div id="content_bottom" class="region layout4x8">
