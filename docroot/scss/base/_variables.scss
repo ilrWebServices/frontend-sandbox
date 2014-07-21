@@ -19,6 +19,7 @@ $brand: #941e12;
 $brand-dark: #363636;
 $brand-light: #ACACAC;
 $content-area: #fff;
+$cornell-blue: #3787b0;
 $cornell-red: #b31b1b;
 $cornell-tan: #f0eee4;
 $gold: #f0b04e;
@@ -87,7 +88,8 @@ $p-text: #212121;
 $p-size: ms(0);
 $p-sm-size: $mod-01;
 
-$link: darken($brand, 5%);
+// $link: darken($brand, 5%);
+$link: $cornell-blue;
 $link-hover: $brand;
 $nav-color: #2D4063;
 
