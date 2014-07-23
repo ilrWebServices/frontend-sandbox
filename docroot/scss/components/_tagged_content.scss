@@ -5,3 +5,41 @@
   &.news {
   }
 }
+
+article.node-news-item {
+  background: #686d72 url("../images/world-bkgd.gif") no-repeat center top;
+  height: 100%;
+  padding: 105px 1% 0;
+  position: relative;
+  text-align: center;
+
+  h2 a {
+    color: #ccc;
+    font-family: freight-sans-pro;
+    font-weight: 300;
+  }
+
+  .field-name-field-published-date {
+    color: #fff;
+    position: relative;
+    top: -97px;
+  }
+  .field-name-field-image {
+    display: none; //helper class?
+  }
+
+  .field-name-field-description {
+    color: #fff;
+    font-family: freight-text-pro;
+  }
+
+  [data-eq-state="small"] & {
+    width: 100%;
+  }
+  [data-eq-state="medium"] & {
+    width: 33%;
+  }
+  [data-eq-state="large"] & {
+    width: 25%;
+  }
+}

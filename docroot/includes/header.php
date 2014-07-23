@@ -5,6 +5,8 @@
 <head profile="http://www.w3.org/1999/xhtml/vocab">
   <script type="text/javascript" src="//use.typekit.net/bva6ofm.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="js/vendor/ready.min.js"></script>
+  <script type="text/javascript" src="js/vendor/eq.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
