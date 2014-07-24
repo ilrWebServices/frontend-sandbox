@@ -84,6 +84,41 @@ include("includes/header.php");
     </article>
   </div> <!-- end content_bottom -->
 
+  <div id="content_bottom" class="region" data-eq-pts="small: 480, medium: 769, large: 1025">
+    <article role="article" id="node-6816" class="node node-news-item-pic node-teaser contextual-links-region clearfix" data-eq-pts="small: 100, medium: 300, large: 600, full: 900">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              <a href="/news/no-laughing-matter">
+                <img src="images/MicheleWilliams-100x100.jpg" width="100" height="100" alt="Workplace culture, training can soften failed humor" title="Workplace culture, training can soften failed humor" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <h2><a href="/news/no-laughing-matter">No Laughing Matter</a></h2>
+
+      <div class="content">
+        <div class="field field-name-field-published-date field-type-datetime field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              <!-- <span class="date-display-single">Tuesday, July, 7 2014</span> -->
+              <span class="date-display-single">7.8.14</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="field field-name-field-description field-type-text field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              Workplace culture, training can soften failed humor: research by Williams
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+
   <!-- <div id="content_bottom" class="region layout4x8">
     <div class="eventSlug">
       <p class="date"><em>5</em><span>/</span>23 - 25</p>
