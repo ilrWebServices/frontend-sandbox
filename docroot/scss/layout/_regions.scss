@@ -17,7 +17,8 @@
     background: $gray-light;
   }
   &#featured {
-    background: orange;
+    background: orange url(../images/brain-3D.jpg) no-repeat top center;
+    background-size: 100%;
   }
   &#highlighted {
     background: red;

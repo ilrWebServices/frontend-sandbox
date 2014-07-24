@@ -1,3 +1,15 @@
 nav {
+  background: rgba(255,255,255,0.3);
+  // margin-top: 100px;
   h2 { @extend .hidden; }
+  ul {
+    padding-left: 80px;
+    li {
+      color: #fff;
+      line-height: 2.4;
+      margin: 0;
+      padding: 0 50px 0 0;
+      float: left;
+    }
+  }
 }
