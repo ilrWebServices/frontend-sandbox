@@ -20,18 +20,46 @@
     background: orange url(../images/group.jpg) no-repeat top center;
     background-size: 100%;
   }
-  // #banner {
-  //   background: url(../images/CU-ILR-caps.png) no-repeat 80px top;
-  //   background-image: url(../images/CU-ILR-caps.svg), none;
-  //   height: 75px;
-  //   margin-bottom: 20px;
-  // }
   #banner {
-    background: url(../images/CU-ILR-caps-120.png) no-repeat 80px top;
+    background: url(../images/CU-ILR-caps-120.png) no-repeat left top;
     background-image: url(../images/CU-ILR-caps-120.svg), none;
     background-size: 376px 120px;
     height: 120px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: 80px;
+    a.logo {
+      // background-color: rgba(0,255,0,0.5);
+      width: 120px;
+      height: 120px;
+      display: block;
+      float: left;
+    }
+    a.lockup {
+      // background-color: rgba(255,255,0,0.5);
+      width: 232px;
+      height: 68px;
+      margin-top: 26px;
+      margin-left: 23px;
+      display: block;
+      float: left;
+    }
+  }
+  #bannerAdj {
+    background: url(../images/CU-ILR-caps-120.png) no-repeat left top;
+    background-image: url(../images/CU-ILR-caps-120.svg), none;
+    background-size: 376px 120px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    float: left;
+    a {
+      width: 120px;
+      height: 120px;
+      display: block;
+    }
   }
   &#highlighted {
     background: red;

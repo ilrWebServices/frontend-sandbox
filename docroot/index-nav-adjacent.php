@@ -5,13 +5,20 @@ include("includes/header.php");
 <div class="wrapper">
 
   <div id="featured" class="region">
-    <div id="banner">
-      <a class="logo" href="http://www.cornell.edu"></a>
-      <a class="lockup" href="http://www.ilr.cornell.edu"></a>
-      <!-- <img src="images/CU-ILR.svg" width="399" height="115" alt="Cornell University" title="Cornell University" /> -->
-      <!-- <img src="images/CU-ILR-caps.svg" width="304" height="100" alt="Cornell University" title="Cornell University" /> -->
+    <div id="bannerAdj">
+      <a href="http://www.cornell.edu"></a>
     </div>
-    <nav>
+    <div class="nav">
+      <ul>
+      <li>About ILR</li>
+      <li>Admissions</li>
+      <li>Academics</li>
+      <li>Career Services</li>
+      <li>Professional Programs</li>
+      <li>Centers &amp; Institutes</li>
+      </ul>
+    </div>
+    <!-- <nav>
       <ul>
       <li>About Us</li>
       <li>Admissions</li>
@@ -20,8 +27,7 @@ include("includes/header.php");
       <li>Professional Programs</li>
       <li>Centers &amp; Institutes</li>
       </ul>
-    </nav>
-    <!-- <p>highlighted</p> -->
+    </nav> -->
   </div>
 
   <div id="content" class="region">
