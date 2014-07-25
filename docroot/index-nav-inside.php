@@ -6,7 +6,8 @@ include("includes/header.php");
 
   <div id="featured" class="region">
     <div id="banner">
-      <img src="images/CU-ILR.svg" width="399" height="115" alt="Cornell University" title="Cornell University" />
+      <!-- <img src="images/CU-ILR.svg" width="399" height="115" alt="Cornell University" title="Cornell University" /> -->
+      <!-- <img src="images/CU-ILR-caps.svg" width="304" height="100" alt="Cornell University" title="Cornell University" /> -->
     </div>
     <nav>
       <ul>

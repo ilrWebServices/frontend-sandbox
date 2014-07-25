@@ -17,8 +17,21 @@
     background: $gray-light;
   }
   &#featured {
-    background: orange url(../images/brain-3D.jpg) no-repeat top center;
+    background: orange url(../images/group.jpg) no-repeat top center;
     background-size: 100%;
+  }
+  // #banner {
+  //   background: url(../images/CU-ILR-caps.png) no-repeat 80px top;
+  //   background-image: url(../images/CU-ILR-caps.svg), none;
+  //   height: 75px;
+  //   margin-bottom: 20px;
+  // }
+  #banner {
+    background: url(../images/CU-ILR-caps-120.png) no-repeat 80px top;
+    background-image: url(../images/CU-ILR-caps-120.svg), none;
+    background-size: 376px 120px;
+    height: 120px;
+    margin-bottom: 20px;
   }
   &#highlighted {
     background: red;
