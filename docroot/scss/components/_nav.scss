@@ -1,6 +1,5 @@
 nav {
   background: rgba(255,255,255,0.3);
-  // margin-top: 100px;
   h2 { @extend .hidden; }
   ul {
     padding-left: 80px;
@@ -14,30 +13,17 @@ nav {
   }
 }
 
-div.nav {
-  float: left;
-  padding-top: 40px;
-  ul {
-    padding-left: 50px;
-    li {
-      color: #fff;
-      font-family: freight-text-pro;
-      font-size: ms(1);
-      line-height: 1;
-      margin: 0;
-      padding: 0 30px 0 0;
-      float: left;
-    }
-  }
+nav.top {
+  background: $gray-bkgd;
+  border-top: 1px solid $gray-medium;
 }
 
-div.navGrey {
+div.nav, div.navColor, div.navAnnounce {
   float: left;
   padding-top: 15px;
   ul {
     padding-left: 30px;
     li {
-      color: #212121;
       font-family: freight-text-pro;
       font-size: ms(0);
       line-height: 1;
@@ -48,36 +34,15 @@ div.navGrey {
   }
 }
 
-div.navAnnounce {
-  float: left;
-  padding-top: 15px;
-  ul {
-    padding-left: 30px;
-    li {
-      color: #fff;
-      font-family: freight-text-pro;
-      font-size: ms(0);
-      line-height: 1;
-      margin: 0;
-      padding: 0 20px 0 0;
-      float: left;
-    }
-  }
+.navDark {
+  color: #212121;
+}
+.navLight {
+  color: #fff;
 }
 
 @include breakpoint(1025px) {
-  div.navGrey {
-    float: left;
-    padding-top: 40px;
-    ul {
-      padding-left: 50px;
-      li {
-        font-size: ms(1);
-        padding: 0 30px 0 0;
-      }
-    }
-  }
-  div.navAnnounce {
+  div.nav, div.navColor, div.navAnnounce {
     float: left;
     padding-top: 40px;
     ul {

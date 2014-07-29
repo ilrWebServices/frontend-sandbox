@@ -22,10 +22,16 @@
   &nav {
     background: $gray-light;
   }
+
+  &#topNav {
+    background: $cornell-red;
+  }
+
   &#featured {
     background: orange url(../images/group.jpg) no-repeat top center;
     background-size: 100%;
   }
+
   &#featured-noBanner {
     background-color: $cornell-red;
     background-color: $cornell-cool-grey;
@@ -52,20 +58,25 @@
   &#highlighted {
 
   }
+
   &#content {
     img {
       margin-bottom: ms(2);
     }
   }
+
   &#sidebar_first {
 
   }
+
   &#sidebar_second {
 
   }
+
   &#content_bottom {
     background: $gray-light;
   }
+
   &footer {
     background: $gray-dark;
   }
@@ -73,6 +84,11 @@
 
 nav {
   @include grid-span(1);
+}
+
+#topNav {
+  @include grid-span(1);
+  height: auto;
 }
 
 #featured {
@@ -91,32 +107,34 @@ nav {
 }
 
 #banner {
-    background: url(../images/CU-ILR-caps-120.png) no-repeat left top;
-    background-image: url(../images/CU-ILR-caps-120.svg), none;
-    background-size: 376px 120px;
-    height: 120px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 80px;
-    a.logo {
-      width: 120px;
-      height: 120px;
-      display: block;
-      float: left;
-    }
-    a.lockup {
-      width: 232px;
-      height: 68px;
-      margin-top: 26px;
-      margin-left: 23px;
-      display: block;
-      float: left;
-    }
+  background: url(../images/CU-ILR-75-white.png) no-repeat left top;
+  background-image: url(../images/CU-ILR-75-white.svg), none;
+  // background-size: 376px 120px;
+  background-size: 100%;
+  width: 172px;
+  height: 75px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 5%;
+  a.logo {
+    // background: rgba(255, 255, 0, 0.5);
+    width: 75px;
+    height: 75px;
+    display: block;
+    float: left;
   }
+  a.lockup {
+    // background: rgba(0, 255, 0, 0.5);
+    width: 90px;
+    height: 17px;
+    margin-top: 26px;
+    margin-left: 7px;
+    display: block;
+    float: left;
+  }
+}
 
-#bannerAdj {
-  background: url(../images/CU-ILR-caps-120-grey.png) no-repeat left top;
-  background-image: url(../images/CU-ILR-caps-120-grey.svg), none;
+#bannerAdj, #bannerInt {
   background-size: 100%;
   width: 75px;
   height: 75px;
@@ -131,21 +149,14 @@ nav {
   }
 }
 
-#bannerInt {
+.bannerWhite {
   background: url(../images/CU-ILR-caps-120-white.png) no-repeat left top;
   background-image: url(../images/CU-ILR-caps-120-white.svg), none;
-  background-size: 100%;
-  width: 75px;
-  height: 75px;
-  margin-top: 5px;
-  margin-bottom: 0;
-  margin-left: 5%;
-  float: left;
-  a {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
+}
+
+.bannerGrey{
+  background: url(../images/CU-ILR-caps-120-grey.png) no-repeat left top;
+  background-image: url(../images/CU-ILR-caps-120-grey.svg), none;
 }
 
 .bannerAnnouncement {
@@ -160,7 +171,7 @@ nav {
     margin-bottom: ms(2);
   }
   a {
-    background: #273e45;
+    background: rgba(39, 62, 69, 0.6);
     color: #fff;
     padding: 10px 30px;
     border-radius: 5px;
@@ -198,6 +209,10 @@ footer {
   @include add-grid (3 9);
 
   nav {
+    @include grid-span(2);
+  }
+
+  #topNav {
     @include grid-span(2);
   }
 
@@ -239,6 +254,10 @@ footer {
   @include add-grid (3 9);
 
   nav {
+    @include grid-span(2);
+  }
+
+  #topNav {
     @include grid-span(2);
   }
 
@@ -288,6 +307,10 @@ footer {
     @include grid-span(3);
   }
 
+  #topNav {
+    @include grid-span(3);
+  }
+
   #featured {
     @include grid-span(3);
   }
@@ -300,6 +323,31 @@ footer {
   #featured-interactive {
     @include grid-span(3);
     height: 320px;
+  }
+
+  #banner {
+    background: url(../images/CU-ILR-caps-120.png) no-repeat left top;
+    background-image: url(../images/CU-ILR-caps-120.svg), none;
+    background-size: 376px 120px;
+    width: 376px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    a.logo {
+      width: 120px;
+      height: 120px;
+      display: block;
+      float: left;
+    }
+    a.lockup {
+      width: 232px;
+      height: 68px;
+      margin-top: 26px;
+      margin-left: 23px;
+      display: block;
+      float: left;
+    }
   }
 
   #bannerAdj, #bannerInt {

@@ -5,10 +5,10 @@ include("includes/header.php");
 <div class="wrapper">
 
   <div id="featured-interactive" class="region">
-      <div id="bannerInt">
+      <div id="bannerInt" class="bannerWhite">
         <a href="http://www.cornell.edu"></a>
       </div>
-      <div class="navAnnounce">
+      <div class="navAnnounce navLight">
         <ul>
         <li>About ILR</li>
         <li>Admissions</li>
@@ -20,7 +20,7 @@ include("includes/header.php");
       </div>
       <div class="bannerAnnouncement">
         <p>“No other educational institute has more comprehensive graduate programs in workplace studies.”</p>
-        <a class="button" href="">Learn more</a>
+        <a class="button" href="http://www.ilr.cornell.edu/graddegreeprograms/">Learn more</a>
       </div>
   </div>
 

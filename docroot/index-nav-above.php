@@ -4,27 +4,29 @@ include("includes/header.php");
 
 <div class="wrapper">
 
-  <div id="featured-noBanner" class="region">
-    <!-- <div class="stripes"> -->
-      <div id="bannerAdj" class="bannerGrey">
-        <a href="http://www.cornell.edu"></a>
-      </div>
-      <div class="navColor navDark">
-        <ul>
-        <li>About ILR</li>
-        <li>Admissions</li>
-        <li>Academics</li>
-        <li>Career Services</li>
-        <li>Professional Programs</li>
-        <li>Centers &amp; Institutes</li>
-        </ul>
-      </div>
-    <!-- </div> --> <!-- end .stripes -->
+  <div id="topNav" class="region">
+    <div id="banner">
+      <a class="logo" href="http://www.cornell.edu"></a>
+      <a class="lockup" href="http://www.ilr.cornell.edu"></a>
+    </div>
+    <nav class="top">
+      <ul>
+      <li>About Us</li>
+      <li>Admissions</li>
+      <li>Academics</li>
+      <li>Career Services</li>
+      <li>Professional Programs</li>
+      <li>Centers &amp; Institutes</li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="featured" class="region">
+
   </div>
 
   <div id="content" class="region">
     <h1>ILR News Center</h1>
-    <img src="images/student.jpg" alt="image" title="image" />
     <h2>“Alive and Well”</h2>
     <h3>Collective bargaining did its job in railroad dispute, Margolies says</h3>
     <p>The Long Island Rail Road schedule remains on track, thanks to compromise borne of the collective bargaining process, according to Worker Institute Senior Associate Ken Margolies.</p>

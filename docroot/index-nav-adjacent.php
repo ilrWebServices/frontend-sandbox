@@ -5,10 +5,10 @@ include("includes/header.php");
 <div class="wrapper">
 
   <div id="featured" class="region">
-    <div id="bannerAdj">
+    <div id="bannerAdj" class="bannerWhite">
       <a href="http://www.cornell.edu"></a>
     </div>
-    <div class="nav">
+    <div class="nav navLight">
       <ul>
       <li>About ILR</li>
       <li>Admissions</li>
@@ -18,16 +18,6 @@ include("includes/header.php");
       <li>Centers &amp; Institutes</li>
       </ul>
     </div>
-    <!-- <nav>
-      <ul>
-      <li>About Us</li>
-      <li>Admissions</li>
-      <li>Academics</li>
-      <li>Career Services</li>
-      <li>Professional Programs</li>
-      <li>Centers &amp; Institutes</li>
-      </ul>
-    </nav> -->
   </div>
 
   <div id="content" class="region">
