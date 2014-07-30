@@ -1,5 +1,6 @@
 nav {
   background: rgba(255,255,255,0.3);
+  display: none; //for mobile
   h2 { @extend .hidden; }
   ul {
     padding-left: 80px;
@@ -21,6 +22,7 @@ nav.top {
 div.nav, div.navColor, div.navAnnounce {
   float: left;
   padding-top: 15px;
+  display: none; //for mobile
   ul {
     padding-left: 30px;
     li {
@@ -41,8 +43,54 @@ div.nav, div.navColor, div.navAnnounce {
   color: #fff;
 }
 
-@include breakpoint(1025px) {
+@include breakpoint(481px 768px) {
+  nav, div.nav, div.navColor, div.navAnnounce {
+    display: none;
+  }
+}
+
+@include breakpoint(769px 1024px) {
+  nav {
+    display: inherit;
+    ul {
+      padding-left: 50px;
+      li {
+        padding: 0 30px 0 0;
+      }
+    }
+  }
+
   div.nav, div.navColor, div.navAnnounce {
+    display: inherit;
+    float: left;
+    padding-top: 40px;
+    ul {
+      padding-left: 30px;
+      li {
+        font-size: ms(0);
+        padding: 0 30px 0 0;
+      }
+    }
+  }
+}
+
+@include breakpoint(1025px) {
+  nav {
+    display: inherit;
+    // ul {
+    //   padding-left: 80px;
+    //   li {
+    //     color: #fff;
+    //     line-height: 2.4;
+    //     margin: 0;
+    //     padding: 0 50px 0 0;
+    //     float: left;
+    //   }
+    // }
+  }
+
+  div.nav, div.navColor, div.navAnnounce {
+    display: inherit;
     float: left;
     padding-top: 40px;
     ul {

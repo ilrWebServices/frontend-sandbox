@@ -22,16 +22,13 @@
   &nav {
     background: $gray-light;
   }
-
   &#topNav {
     background: $cornell-red;
   }
-
   &#featured {
-    background: orange url(../images/group.jpg) no-repeat top center;
+    background: $red-dark url(../images/group.jpg) no-repeat top center;
     background-size: 100%;
   }
-
   &#featured-noBanner {
     background-color: $cornell-red;
     background-color: $cornell-cool-grey;
@@ -44,7 +41,6 @@
     // background-image: -o-linear-gradient(top, #b31b1b 60%, #72170e);
     // background-image: linear-gradient(top, #b31b1b 60%, #72170e);
   }
-
   &#featured-interactive {
     background-color: #3c7ab0;
     background-image: -webkit-linear-gradient(top, #4083bd 15%, #3c7ab0);
@@ -54,29 +50,20 @@
     background-image: linear-gradient(top, #4083bd 15%, #3c7ab0);
     border-bottom: solid 1px #1b1464;
   }
-
   &#highlighted {
-
   }
-
   &#content {
     img {
       margin-bottom: ms(2);
     }
   }
-
   &#sidebar_first {
-
   }
-
   &#sidebar_second {
-
   }
-
   &#content_bottom {
     background: $gray-light;
   }
-
   &footer {
     background: $gray-dark;
   }
@@ -93,7 +80,7 @@ nav {
 
 #featured {
   @include grid-span(1);
-  height: 400px;
+  height: 180px;
 }
 
 #featured-noBanner {
@@ -112,7 +99,7 @@ nav {
   // background-size: 376px 120px;
   background-size: 100%;
   width: 172px;
-  height: 75px;
+  height: 80px;
   margin-top: 5px;
   margin-bottom: 0;
   margin-left: 5%;
@@ -218,6 +205,12 @@ footer {
 
   #featured {
     @include grid-span(2);
+    height: 400px;
+  }
+
+  #featured-noBanner {
+    @include grid-span(2);
+    height: 85px;
   }
 
   #content {
@@ -263,6 +256,22 @@ footer {
 
   #featured {
     @include grid-span(2);
+    height: 400px;
+  }
+
+  #featured-noBanner {
+    @include grid-span(2);
+    height: 140px;
+  }
+
+  #bannerAdj, #bannerInt {
+    background-size: 120px 120px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: left;
   }
 
   #content {
@@ -313,6 +322,7 @@ footer {
 
   #featured {
     @include grid-span(3);
+    height: 450px;
   }
 
   #featured-noBanner {
