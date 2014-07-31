@@ -5,10 +5,10 @@ include("includes/header.php");
 <div class="wrapper">
 
   <div id="featured-noBanner" class="region">
-      <div id="bannerAdj" class="bannerGrey">
+      <div id="bannerAdj" class="bannerWhite">
         <a href="http://www.cornell.edu"></a>
       </div>
-      <div class="navColor navDark">
+      <div class="navColor navLight">
         <ul>
         <li>About ILR</li>
         <li>Admissions</li>
