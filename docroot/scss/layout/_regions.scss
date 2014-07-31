@@ -32,6 +32,10 @@
   &#featured-carousel {
     background: $red-dark;
   }
+  &#featured-carousel-trans {
+    background: $gray-dark;
+    position: relative;
+  }
   &#featured-noBanner {
     background-color: $cornell-red;
     background-color: $cornell-cool-grey;
@@ -56,6 +60,8 @@
   &#highlighted {
   }
   &#content {
+    position: relative;
+    z-index: 0;
     img {
       margin-bottom: ms(2);
     }
@@ -87,6 +93,11 @@ nav {
 }
 
 #featured-carousel {
+  @include grid-span(1);
+  height: auto;
+}
+
+#featured-carousel-trans {
   @include grid-span(1);
   height: auto;
 }
@@ -221,6 +232,11 @@ footer {
     height: auto;
   }
 
+  #featured-carousel-trans {
+    @include grid-span(2);
+    height: auto;
+  }
+
   #featured-noBanner {
     @include grid-span(2);
     height: 85px;
@@ -273,6 +289,11 @@ footer {
   }
 
   #featured-carousel {
+    @include grid-span(2);
+    height: auto;
+  }
+
+  #featured-carousel-trans {
     @include grid-span(2);
     height: auto;
   }
@@ -344,6 +365,11 @@ footer {
   }
 
   #featured-carousel {
+    @include grid-span(3);
+    height: auto;
+  }
+
+  #featured-carousel-trans {
     @include grid-span(3);
     height: auto;
   }
