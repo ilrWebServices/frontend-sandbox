@@ -1,3 +1,59 @@
-nav {
-  h2 { @extend .hidden; }
+div.navColor {
+  float: left;
+  padding-top: 15px;
+  display: none; //for mobile
+  ul {
+    padding-left: 30px;
+    li {
+      font-family: freight-text-pro;
+      font-size: ms(0);
+      line-height: 1;
+      margin: 0;
+      padding: 0 20px 0 0;
+      float: left;
+    }
+  }
+}
+
+.navDark {
+  color: #212121;
+}
+.navLight {
+  color: #fff;
+}
+
+@include breakpoint(481px 768px) {
+  div.navColor {
+    display: none; //for mobile
+  }
+}
+
+@include breakpoint(769px 1024px) {
+  div.navColor{
+    display: inherit;
+    float: left;
+    padding-top: 40px;
+    ul {
+      padding-left: 30px;
+      li {
+        font-size: ms(0);
+        padding: 0 30px 0 0;
+      }
+    }
+  }
+}
+
+@include breakpoint(1025px) {
+  div.navColor {
+    display: inherit;
+    float: left;
+    padding-top: 40px;
+    ul {
+      padding-left: 50px;
+      li {
+        font-size: ms(1);
+        padding: 0 30px 0 0;
+      }
+    }
+  }
 }
