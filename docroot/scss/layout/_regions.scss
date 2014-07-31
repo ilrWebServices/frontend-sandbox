@@ -29,6 +29,9 @@
     background: $red-dark url(../images/group.jpg) no-repeat top center;
     background-size: 100%;
   }
+  &#featured-carousel {
+    background: $red-dark;
+  }
   &#featured-noBanner {
     background-color: $cornell-red;
     background-color: $cornell-cool-grey;
@@ -81,6 +84,11 @@ nav {
 #featured {
   @include grid-span(1);
   height: 180px;
+}
+
+#featured-carousel {
+  @include grid-span(1);
+  height: auto;
 }
 
 #featured-noBanner {
@@ -208,6 +216,11 @@ footer {
     height: 400px;
   }
 
+  #featured-carousel {
+    @include grid-span(2);
+    height: auto;
+  }
+
   #featured-noBanner {
     @include grid-span(2);
     height: 85px;
@@ -257,6 +270,11 @@ footer {
   #featured {
     @include grid-span(2);
     height: 400px;
+  }
+
+  #featured-carousel {
+    @include grid-span(2);
+    height: auto;
   }
 
   #featured-noBanner {
@@ -323,6 +341,11 @@ footer {
   #featured {
     @include grid-span(3);
     height: 450px;
+  }
+
+  #featured-carousel {
+    @include grid-span(3);
+    height: auto;
   }
 
   #featured-noBanner {
