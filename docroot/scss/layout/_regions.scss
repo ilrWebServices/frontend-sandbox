@@ -8,12 +8,6 @@
   overflow: auto;
 }
 
-// .stripes {
-//   background: url(../images/bannerStripe.png) top left;
-//   width: 100%;
-//   height: 100%;
-// }
-
 .region {
   margin: 0;
   padding: 0;
@@ -112,7 +106,7 @@ nav {
   height: 100%;
 }
 
-#banner {
+#banner, #bannerAnom {
   background: url(../images/CU-ILR-75-white.png) no-repeat left top;
   background-image: url(../images/CU-ILR-75-white.svg), none;
   // background-size: 376px 120px;
@@ -153,6 +147,52 @@ nav {
     height: 100%;
     display: block;
   }
+}
+
+#search-form {
+  width: 300px;
+  form {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  label {
+    color: #000;
+    font-size: 1.1em;
+    display: none;
+  }
+}
+
+#search-form-query {
+  background: $red-dark;
+  border: none;
+  font-family: $font;
+  font-size: ms(0);
+  font-weight: 300;
+  color: #fff;
+  width: 200px;
+  height: 26px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+#search-form-submit {
+  background: $red-dark url(../images/search.gif) no-repeat left top;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#searchBtn {
+  background: yellow;
+  background: $cornell-red url(../images/search.gif) no-repeat center center;
+  margin-top: 55px;
+  margin-right: 2%;
+  width: 50px;
+  height: 50px;
+  float: right;
 }
 
 .bannerWhite {
@@ -385,7 +425,7 @@ footer {
   }
 
   #banner {
-    background: url(../images/CU-ILR-caps-120.png) no-repeat left top;
+    background: url(../images/CU-ILR-120-white.png) no-repeat left top;
     background-image: url(../images/CU-ILR-120-white.svg), none;
     background-size: 376px 120px;
     width: 376px;
@@ -393,6 +433,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 80px;
+    float: left;
     a.logo {
       width: 120px;
       height: 120px;
@@ -409,6 +450,31 @@ footer {
     }
   }
 
+  #bannerAnom {
+    background: url(../images/CU-ILR-120-anomoly-white.png) no-repeat left top;
+    background-image: url(../images/CU-ILR-120-anomoly-white.svg), none;
+    background-size: 376px 120px;
+    width: 376px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    a.logo {
+      width: 120px;
+      height: 120px;
+      display: block;
+      float: left;
+    }
+    a.lockup {
+      width: 220px;
+      height: 57px;
+      margin-top: 26px;
+      margin-left: 23px;
+      display: block;
+      float: left;
+    }
+  }
+
   #bannerAdj, #bannerInt {
     background-size: 120px 120px;
     width: 120px;
@@ -417,6 +483,82 @@ footer {
     margin-bottom: 20px;
     margin-left: 50px;
     float: left;
+  }
+
+  #search-form {
+    margin-top: 55px;
+    margin-right: 2%;
+    width: 300px;
+    float: right;
+    form {
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+    label {
+      color: #000;
+      font-size: 1.1em;
+      display: none;
+    }
+  }
+
+  #search-form-query {
+    background: $red-dark;
+    border: none;
+    font-family: $font;
+    font-size: ms(0);
+    font-weight: 300;
+    color: #fff;
+    width: 200px;
+    height: 26px;
+    padding-left: 5px;
+    vertical-align: middle;
+  }
+
+  #search-form-submit {
+    background: $red-dark url(../images/search.gif) no-repeat center center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    vertical-align: middle;
+  }
+
+  #search-toggle {
+    background: $red-dark;
+    padding: 5px 0 5px 80px;
+    height: auto;
+    width: 100%;
+    form {
+      margin: 0;
+      padding: 0;
+    }
+    label {
+      color: #000;
+      font-size: 1.1em;
+      display: none;
+    }
+  }
+
+  #search-toggle-query {
+    background: $red-dark;
+    border: none;
+    font-family: $font;
+    font-size: ms(2);
+    font-weight: 300;
+    color: #fff;
+    width: 500px;
+    height: 60px;
+    padding-left: 5px;
+  }
+
+  #search-toggle-submit {
+    background: $red-dark url(../images/search.gif) no-repeat left top;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: none;
   }
 
   #content {
