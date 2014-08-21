@@ -5,7 +5,7 @@ $(document).ready(function() {
       $('#search-toggle').slideDown('fast');
     }
     else {
-      $('div#search-toggle').slideUp('fast');
+      $('#search-toggle').slideUp('fast');
     }
   });
 });

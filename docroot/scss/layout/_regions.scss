@@ -117,17 +117,41 @@ nav {
   margin-bottom: 0;
   margin-left: 5%;
   a.logo {
-    // background: rgba(255, 255, 0, 0.5);
     width: 75px;
     height: 75px;
     display: block;
     float: left;
   }
   a.lockup {
-    // background: rgba(0, 255, 0, 0.5);
     width: 90px;
     height: 17px;
     margin-top: 26px;
+    margin-left: 7px;
+    display: block;
+    float: left;
+  }
+}
+
+#bannerSearch {
+  background: url(../images/ILR-School-75.png) no-repeat left top;
+  background-image: url(../images/ILR-School-75.svg), none;
+  background-size: 100%;
+  width: 187px;
+  height: 80px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 5%;
+  float: left;
+  a.logo {
+    width: 75px;
+    height: 75px;
+    display: block;
+    float: left;
+  }
+  a.lockup {
+    width: 105px;
+    height: 20px;
+    margin-top: 24px;
     margin-left: 7px;
     display: block;
     float: left;
@@ -149,8 +173,39 @@ nav {
   }
 }
 
+.bannerWhite {
+  background: url(../images/CU-ILR-caps-120-white.png) no-repeat left top;
+  background-image: url(../images/CU-ILR-caps-120-white.svg), none;
+}
+
+.bannerGrey{
+  background: url(../images/CU-ILR-caps-120-grey.png) no-repeat left top;
+  background-image: url(../images/CU-ILR-caps-120-grey.svg), none;
+}
+
+.bannerAnnouncement {
+  clear: both;
+  padding-top: 10px;
+  text-align: center;
+  p {
+    color: #fff;
+    font-size: ms(2);
+    font-style: italic;
+    text-shadow: 1px 1px 1px #444;
+    margin-bottom: ms(2);
+  }
+  a {
+    background: rgba(39, 62, 69, 0.6);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+}
+
 #search-form {
-  width: 300px;
+  margin: 0 auto;
+  width: 280px;
   form {
     margin: 0;
     padding: 0;
@@ -185,43 +240,67 @@ nav {
   vertical-align: middle;
 }
 
-#searchBtn {
-  background: yellow;
-  background: $cornell-red url(../images/search.gif) no-repeat center center;
-  margin-top: 55px;
-  margin-right: 2%;
-  width: 50px;
-  height: 50px;
-  float: right;
-}
-
-.bannerWhite {
-  background: url(../images/CU-ILR-caps-120-white.png) no-repeat left top;
-  background-image: url(../images/CU-ILR-caps-120-white.svg), none;
-}
-
-.bannerGrey{
-  background: url(../images/CU-ILR-caps-120-grey.png) no-repeat left top;
-  background-image: url(../images/CU-ILR-caps-120-grey.svg), none;
-}
-
-.bannerAnnouncement {
-  clear: both;
-  padding-top: 10px;
-  text-align: center;
-  p {
-    color: #fff;
-    font-size: ms(2);
-    font-style: italic;
-    text-shadow: 1px 1px 1px #444;
-    margin-bottom: ms(2);
+#search-toggle {
+  background: $red-dark;
+  padding: 5px;
+  height: auto;
+  width: 100%;
+  form {
+    margin: 0;
+    padding: 0;
   }
+  label {
+    color: #000;
+    font-size: 1.1em;
+    display: none;
+  }
+}
+
+#search-toggle-query {
+  background: $red-dark;
+  border: none;
+  font-family: $font;
+  font-size: ms(0);
+  font-weight: 300;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  padding-left: 5%;
+}
+
+#search-toggle-submit {
+  //background: $red-dark url(../images/search.gif) no-repeat left top;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: none;
+}
+
+#searchBtn {
+  background: $cornell-red url(../images/search.gif) no-repeat center center;
+  // border: 1px solid #000;
+  margin-top: 20px;
+  margin-right: 2%;
+  width: 40px;
+  height: 40px;
+  float: right;
+  cursor: pointer;
+}
+
+#menuBtn {
+  // background: $red-dark;
+  margin-top: 15px;
+  margin-right: 3px;
+  padding-top: 15px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  float: right;
+  cursor: pointer;
   a {
-    background: rgba(39, 62, 69, 0.6);
     color: #fff;
-    padding: 10px 30px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
+    font-size: $mod-01;
   }
 }
 
@@ -280,6 +359,17 @@ footer {
   #featured-noBanner {
     @include grid-span(2);
     height: 85px;
+  }
+
+  #search-form {
+    margin-top: 20px;
+    margin-right: 2%;
+    width: 250px;
+    float: right;
+  }
+
+  #menuBtn {
+    margin-right: 10px;
   }
 
   #content {
@@ -353,6 +443,17 @@ footer {
     float: left;
   }
 
+  #search-form {
+    margin-top: 20px;
+    margin-right: 2%;
+    width: auto;
+    float: right;
+  }
+
+  #menuBtn {
+    display: none;
+  }
+
   #content {
     @include grid-span(1, 2);
     padding: ms(3) 5% ms(2) 0;
@@ -424,7 +525,7 @@ footer {
     height: 320px;
   }
 
-  #banner {
+  #banner, #bannerSearch {
     background: url(../images/CU-ILR-120-white.png) no-repeat left top;
     background-image: url(../images/CU-ILR-120-white.svg), none;
     background-size: 376px 120px;
@@ -558,6 +659,24 @@ footer {
     width: 40px;
     height: 40px;
     padding: 0;
+    display: none;
+  }
+
+  #searchBtn {
+    background: $cornell-red url(../images/search-lg.gif) no-repeat center center;
+    margin-top: 45px;
+    margin-right: 4%;
+    width: 60px;
+    height: 60px;
+  }
+
+  #menuBtn {
+    margin-top: 50px;
+    margin-right: 20px;
+    padding-top: 18px;
+    width: 50px;
+    height: 50px;
+    float: right;
     display: none;
   }
 

@@ -1,8 +1,18 @@
 <?php
-include("includes/header.php");
+include("includes/headerSearch.php");
 ?>
 
 <div class="wrapper">
+
+  <div id="search-toggle">
+    <form action="" method="get">
+      <div id="search-input">
+        <label for="search-toggle-query">SEARCH:</label>
+        <input type="text" id="search-toggle-query" name="q" value="Search ILR ..." size="20" />
+        <input type="submit" id="search-toggle-submit" name="submit" value="" />
+      </div>
+    </form>
+  </div>
 
   <div id="topNav" class="region">
     <div id="bannerSearch">
@@ -10,14 +20,11 @@ include("includes/header.php");
       <a class="lockup" href="http://www.ilr.cornell.edu"></a>
     </div>
 
-    <div id="search-form">
-      <form action="" method="get">
-        <div id="search-input">
-          <label for="search-form-query">SEARCH:</label>
-          <input type="text" id="search-form-query" name="q" value="" size="20" />
-          <input type="submit" id="search-form-submit" name="submit" value="" />
-        </div>
-      </form>
+    <div id="searchBtn">
+    </div>
+
+    <div id="menuBtn">
+      <a id="menu">MENU</a>
     </div>
 
     <nav class="top">

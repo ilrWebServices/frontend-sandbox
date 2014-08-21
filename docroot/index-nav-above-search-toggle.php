@@ -5,7 +5,7 @@ include("includes/headerSearch.php");
 <div class="wrapper">
 
   <div id="search-toggle">
-    <form action="/customcf/gsa/bannersearch.cfm" method="get">
+    <form action="" method="get">
       <div id="search-input">
         <label for="search-toggle-query">SEARCH:</label>
         <input type="text" id="search-toggle-query" name="q" value="Search ILR ..." size="20" />
@@ -15,7 +15,7 @@ include("includes/headerSearch.php");
   </div>
 
   <div id="topNav" class="region">
-    <div id="banner">
+    <div id="bannerSearch">
       <a class="logo" href="http://www.cornell.edu"></a>
       <a class="lockup" href="http://www.ilr.cornell.edu"></a>
     </div>
