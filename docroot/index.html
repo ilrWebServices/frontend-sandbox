@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Monster Menu</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/search.css">
+<script type="text/javascript" src="//use.typekit.net/bva6ofm.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/showSearch.js"></script>
+<script type="text/javascript" src="js/showMenu.js"></script>
+<script type="text/javascript" src="js/openMonster.js"></script>
+<script>
+  $(window).load(function(){
+    $("#topNav").sticky({ topSpacing: 0 });
+  });
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div id="topNav">
+      <div id="search-toggle">
+        <form action="" method="get">
+          <div id="search-input">
+            <label for="search-toggle-query">SEARCH:</label>
+            <input type="text" id="search-toggle-query" name="q" value="Search ILR ..." size="20" />
+            <input type="submit" id="search-toggle-submit" name="submit" value="" />
+          </div>
+        </form>
+      </div>
+      <div id="banner">
+        <a class="logo" href="http://www.cornell.edu">
+          <img id="bannerImg" src="images/CU-ILR-120-white.svg" alt="CU seal" title="CU seal">
+        </a>
+      </div>
+      <div id="bannerMobile">
+        <a class="logo" href="http://www.cornell.edu">
+          <img id="bannerImgMobile" src="images/CU-ILR-120-white.svg" alt="CU seal" title="CU seal">
+        </a>
+      </div>
+
+      <div id="searchBtn">
+        <img id="searchImg" src="images/search.svg" alt="search" title="search">
+      </div>
+
+      <div id="searchBtnMobile">
+        <img id="searchImgMobile" src="images/search.svg" alt="search" title="search">
+      </div>
+
+      <div id="menuBtn">
+        <a id="menu">MENU</a>
+      </div>
+
+      <nav id="mainNav">
+        <ul>
+          <li id="liAbout">
+            About ILR
+            <div id="subAbout" class="subNav">
+              <ul>
+                <li>Student Life</li>
+                <li>Alumni</li>
+              </ul>
+              <ul>
+                <li>Life and Health at Cornell</li>
+                <li>Mulitcultural Affairs</li>
+              </ul>
+            </div>
+          </li>
+          <li id="liAdmissions">
+            Admissions
+            <div id="subAdmissions" class="subNav">
+              <ul>
+                <li>Undergraduate Admissions</li>
+                <li>Graduate Admissions</li>
+                <li>Continuing Education</li>
+              </ul>
+            </div>
+          </li>
+          <li id="liAcademics">
+            Academics
+            <div id="subAcademics" class="subNav">
+              <ul>
+                <li>Courses</li>
+                <li>Majors</li>
+                <li>Curriculum</li>
+              </ul>
+              <ul>
+                <li>Bachelor Degrees</li>
+                <li>Graduate Degrees</li>
+                <li>Library</li>
+              </ul>
+            </div>
+          </li>
+          <li id="liCareers">
+            Career Services
+            <div id="subCareers" class="subNav">
+              <ul>
+                <li>Office of Career Services</li>
+                <li>Social Justice Career Fair</li>
+                <li>ILR Career Fair</li>
+              </ul>
+            </div>
+          </li>
+          <li id="liProf">
+            Professional Programs
+            <div id="subProf" class="subNav">
+              <ul>
+                <li>Human Capital Development</li>
+                <li>Worker Institute at Cornell</li>
+                <li>Scheinman Institute on Conflict Resolution</li>
+              </ul>
+              <ul>
+                <li>Programs for Executives</li>
+                <li>Employment and Disability Institute</li>
+                <li>Workplace Law</li>
+              </ul>
+            </div>
+          </li>
+          <li id="liCenters">
+            Centers &amp; Institutes
+            <div id="subCenters" class="subNav">
+              <ul>
+                <li>Center for Advanced Human Resource Studies (CAHRS)</li>
+                <li>Cornell Higher Education Research Institute (CHERI)</li>
+                <li>Employment and Disability Institute (EDI)</li>
+                <li>Global Labor Institute (GLI)</li>
+              </ul>
+              <ul>
+                <li>Institute for Compensation Studies</li>
+                <li>Institute for Workplace Studies (IWS)</li>
+                <li>Labor Dynamics Institute (LDI)</li>
+                <li>Scheinman Institute on Conflict Resolution</li>
+              </ul>
+              <ul>
+                <li>NYS AFL-CIO/Cornell Union Leadership Institute</li>
+                <li>Smithers Institute for Alcohol-Related Workplace Studies</li>
+                <li>Worker Institute at Cornell</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div id="sidebar_first">
+      <ul class="menu">
+        <li><a href="">News nav 1</a></li>
+        <li><a href="">News nav 2</a></li>
+        <li><a href="">News nav 3</a></li>
+        <li><a href="">News nav 4</a></li>
+        <li><a class="active" href="">News nav 5</a></li>
+        <li><a href="">News nav 6</a></li>
+        <li><a href="">News nav 7</a></li>
+        <li><a href="">News nav 8</a></li>
+        <li><a href="">News nav 9</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>ILR News Center</h1>
+      <h2>"Alive and Well"</h2>
+      <h3>Collective bargaining did its job in railroad dispute, Margolies says</h3>
+      <img src="images/LIRR.jpg" alt="Railroad" title="Railroad" />
+      <p>The Long Island Rail Road schedule remains on track, thanks to compromise borne of the collective bargaining process, according to Worker Institute Senior Associate Ken Margolies.</p>
+      <p>"It led to an agreement that recognized the value and needs of the workers, while considering the MTA's need to find a way to pay for the terms of the pending contract," he said.</p>
+      <p>"That's what collective bargaining is designed to do and, traditionally, it has produced many more settlements than strikes," Margolies said.</p>
+      <p>The <a href="">Metropolitan Transportation Authority</a> and an eight-union coalition representing 5,400 railroad workers settled a four-year contract dispute Thursday.</p>
+      <p>"At a time when collective bargaining is under attack by politicians and corporations around the world, New Yorkers should take pride that the collective bargaining process is alive and well in the case of the Long Island Rail Road negotiations."</p>
+      <p>Terms announced this week followed fears that a strike would shut down the railroad that transports up to 300,000 riders daily to and from the metro New York area.</p>
+      <p>"The proven methods and techniques of collective bargaining - including the pressure of a deadline with dire consequences, recommendations from neutrals such as the Presidential Emergency Boards, and skilled mediation from political leadership and negotiators on both sides - produced a result far better than if there had been a strike or if one side had dictated terms to the other," Margolies said.</p>
+      <p>"Speaking as someone who teaches collective bargaining, the press conference was fascinating in how it illustrated the process," he said, crediting Gov. Andrew Cuomo for steering tension into a productive settlement.</p>
+      <p>The contract becomes final when Long Island Railroad unions vote on it; members are expected to vote in favor of the new pact.</p>
+      <p>The Long Island Rail Road schedule remains on track, thanks to compromise borne of the collective bargaining process, according to Worker Institute Senior Associate Ken Margolies.</p>
+      <p>"It led to an agreement that recognized the value and needs of the workers, while considering the MTA's need to find a way to pay for the terms of the pending contract," he said.</p>
+      <p>"That's what collective bargaining is designed to do and, traditionally, it has produced many more settlements than strikes," Margolies said.</p>
+      <p>The <a href="">Metropolitan Transportation Authority</a> and an eight-union coalition representing 5,400 railroad workers settled a four-year contract dispute Thursday.</p>
+      <p>"At a time when collective bargaining is under attack by politicians and corporations around the world, New Yorkers should take pride that the collective bargaining process is alive and well in the case of the Long Island Rail Road negotiations."</p>
+      <p>Terms announced this week followed fears that a strike would shut down the railroad that transports up to 300,000 riders daily to and from the metro New York area.</p>
+      <p>"The proven methods and techniques of collective bargaining - including the pressure of a deadline with dire consequences, recommendations from neutrals such as the Presidential Emergency Boards, and skilled mediation from political leadership and negotiators on both sides - produced a result far better than if there had been a strike or if one side had dictated terms to the other," Margolies said.</p>
+      <p>"Speaking as someone who teaches collective bargaining, the press conference was fascinating in how it illustrated the process," he said, crediting Gov. Andrew Cuomo for steering tension into a productive settlement.</p>
+      <p>The contract becomes final when Long Island Railroad unions vote on it; members are expected to vote in favor of the new pact.</p>
+    </div>
+
+   <div id="sidebar_second">
+      <p>sidebar_second</p>
+      <p>ILR News Center<br />
+      ILR Events<br />
+      Cornell News &amp; Events</p>
+    </div>
+  </div>
+
+<script type="text/javascript" src="js/transitionLockup.js"></script>
+</body>
+</html>

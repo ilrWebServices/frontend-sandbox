@@ -1,0 +1,125 @@
+#search-toggle {
+  background: #92210f;
+  padding: 5px;
+  /*height: auto;*/
+  height: 70px;
+  width: 100%;
+  margin-top: -70px;
+  }
+
+#search-toggle.openSearch {
+  margin-top: 0;
+}
+
+#search-toggle form {
+  margin: 0;
+  padding: 0;
+}
+
+#search-toggle form label {
+  color: #000;
+  font-size: 1.1em;
+  display: none;
+}
+
+#search-toggle-query {
+  background: #92210f;
+  border: none;
+  font-family: 'freight-sans-pro', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  padding-left: 5%;
+}
+
+#search-toggle-submit {
+  display: none;
+}
+
+#searchBtn {
+  display: none;
+}
+
+#searchImg {
+  display: none;
+}
+
+#searchBtnMobile {
+  margin-top: 30px;
+  margin-right: 2%;
+  width: 20px;
+  height: 20px;
+  float: right;
+  cursor: pointer;
+}
+
+#searchImgMobile {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (min-width: 1080px) {
+  #search-toggle {
+    padding: 5px 0 5px 80px;
+  }
+
+  #search-toggle-query {
+    width: 500px;
+  }
+
+  #search-toggle-submit {
+    display: none;
+  }
+
+  #searchBtn {
+    -moz-transition: width 0.3s ease, height 0.3s ease, margin-top 0.3s ease;
+    -webkit-transition: width 0.3s ease, height 0.3s ease, margin-top 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease, margin-top 0.3s ease;
+    margin-top: 45px;
+    margin-right: 4%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+    display: block;
+  }
+
+  #searchBtn.shrink {
+    -moz-transition: width 0.3s ease, height 0.3s ease, margin-top 0.3s ease;
+    -webkit-transition: width 0.3s ease, height 0.3s ease, margin-top 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease, margin-top 0.3s ease;
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #searchImg {
+    -moz-transition: width 0.3s ease, height 0.3s ease;
+    -webkit-transition: width 0.3s ease, height 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  #searchImg.shrink {
+    -moz-transition: width 0.3s ease, height 0.3s ease;
+    -webkit-transition: width 0.3s ease, height 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+    width: 30px;
+    height: 30px;
+  }
+
+  #searchBtnMobile {
+    display: none;
+  }
+
+  #searchImgMobile {
+    display: none;
+  }
+
+}

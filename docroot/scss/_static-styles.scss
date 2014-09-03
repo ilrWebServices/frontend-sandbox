@@ -1,0 +1,328 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  color: $header-color;
+  font-family: $font-headers;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: ms(3);
+}
+
+h2 {
+  font-size: ms(2);
+  margin-bottom: $mod-01;
+}
+
+h3 {
+  font-size: ms(1);
+  margin-bottom: $mod-01;
+}
+
+p {
+  color: $p-text;
+  font-family: $font;
+  font-size: ms(0);
+  font-weight: 300;
+  line-height: 1.618;
+  margin-bottom: ms(2);
+}
+
+.container {
+  position: relative;
+}
+
+/**** sticky nav ****/
+#topNav-sticky-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#topNav {
+  background-color: $cornell-red;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 50;
+}
+
+#banner {
+  display: none;
+}
+
+#bannerMobile {
+  width: 187px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  float: left;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a.logo {
+  width: 100%; /*120*/
+  height: 100%; /*120*/
+  display: block;
+  float: left;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clear: both;
+
+  ul {
+    margin: 0;
+    padding-left: 50px;
+
+    li {
+      font-family: Palatino, serif;
+      font-size: ms(0);
+      line-height: 2.4;
+      margin: 0;
+      padding: 0 30px 0 0;
+      float: left;
+    }
+  }
+}
+
+#mainNav {
+  color: #fff;
+  display: none;
+}
+
+#subAbout, #subAdmissions, #subAcademics, #subCareers, #subProf, #subCenters {
+  display: none;
+}
+
+#menuBtn {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding-top: 15px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  float: right;
+  cursor: pointer;
+
+  a {
+    color: #fff;
+    font-size: 12px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#sidebar_first {
+  width: 100%;
+  margin: 0;
+  padding: ms(2) 30px 0;
+  float: left;
+  display: none;
+
+  ul {
+    margin: 0;
+    padding: 0 ms(0);
+
+    li {
+      background: none;
+      font-family: $font;
+      font-size: ms(0);
+      font-weight: 400;
+
+      a {
+        color: #666;
+        display: block;
+        padding: 1em 0;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #941e12;
+      }
+
+      a.active {
+        color: $cornell-red;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+#sidebar_first > ul.menu li {
+  list-style: none;
+  margin: 0;
+}
+
+#sidebar_first > ul.menu > li {
+  border-bottom: 1px solid #e7e5db;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+  padding: ms(3) 30px ms(2);
+  float: left;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#sidebar_second {
+  background: #f1f1f1;
+  width: 100%;
+  margin: 0;
+  padding: ms(2) 30px 0;
+  float: right;
+}
+
+@media only screen and (min-width: 1080px) {
+
+  #banner {
+    -moz-transition: height 0.3s ease;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+    width: 375px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    float: left;
+    display: block;
+  }
+
+  #banner.shrink {
+    -moz-transition: height 0.3s ease;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+    height: 60px;
+    margin-left: 49px;
+  }
+
+  #bannerImg {
+    -moz-transition: width 0.3s ease, height 0.3s ease;
+    -webkit-transition: width 0.3s ease, height 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+    width: 375px;
+    height: 120px;
+  }
+
+  #bannerImg.shrink {
+    -moz-transition: width 0.3s ease, height 0.3s ease;
+    -webkit-transition: width 0.3s ease, height 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+    width: 187px;
+    height: 60px;
+  }
+
+  #bannerMobile {
+    display: none;
+  }
+
+  nav ul li {
+    font-size: 18px;
+    line-height: 2.4;
+    padding: 0 50px 0 0;
+    position: static;
+  }
+
+  #mainNav {
+    background: $cornell-red;
+    border: 1px solid $cornell-red;
+    color: #fff;
+    height: 45px;
+    -moz-transition: background 0.2s ease-out 0.3s, color 0.2s ease-out 0.3s, height 0.2s ease-out 0.3s;
+    -webkit-transition: background 0.2s ease-out 0.3s, color 0.2s ease-out 0.3s, height 0.2s ease-out 0.3s;
+    transition: background 0.2s ease-out 0.3s, color 0.2s ease-out 0.3s, height 0.2s ease-out 0.3s;
+    display: block;
+    position: relative;
+    z-index: 200;
+
+    .subNav {
+      width: 100%;
+      padding: 20px 0 0 50px;
+      position: absolute;
+      left: 0;
+
+      ul {
+        width: 30%;
+        padding: 0;
+        display: block;
+        float: left;
+
+        li {
+          padding: 0;
+          float: none;
+        }
+      }
+    }
+  }
+
+  #mainNav.active {
+    background: #f1f1f1;
+    border: 1px solid $red-dark;
+    color: #000;
+    height: 250px;
+    -moz-transition: background 0.2s ease-out 0.3s, color 0.2s ease-out 0.3s, height 0.2s ease-out 0.3s;
+    -webkit-transition: background 0.2s ease-out 0.3s, color 0.2s ease-out 0.3s, height 0.2s ease-out 0.3s;
+    transition: background 0.2s ease-out 0.3s, color 0.2s ease-out 0.3s, height 0.2s ease-out 0.3s;
+    cursor: pointer;
+  }
+
+  #subAbout, #subAdmissions, #subAcademics, #subCareers, #subProf, #subCenters {
+    height: 200px;
+    display: none;
+  }
+
+  #subAbout.activeNav, #subAdmissions.activeNav, #subAcademics.activeNav, #subCareers.activeNav, #subProf.activeNav, #subCenters.activeNav {
+    display: block;
+  }
+
+  #menuBtn {
+    display: none;
+  }
+
+  #sidebar_first {
+    width: 20%;
+    margin: 0;
+    padding: ms(2) 10px 0 30px;
+    display: block;
+  }
+  .content {
+    width: 60%;
+    margin: 0;
+    padding: ms(3) 30px ms(2);
+  }
+
+  #sidebar_second {
+    background: transparent;
+    width: 20%;
+    margin: 0;
+    padding: ms(2) 10px 0;
+  }
+}
